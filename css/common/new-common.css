@@ -1,0 +1,342 @@
+.loader {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+}
+.bx-none {
+    box-shadow: none !important;
+}
+.bg-transparent {
+    background: transparent !important;
+}
+a,a.link-text,
+a:hover,a.link-text:hover,
+a:focus,a.link-text:focus,
+a:active,a.link-text:active {
+    color: #4EB543;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+a {
+    color: #4EB543;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
+a:hover,
+a:focus,
+a:active {
+    text-decoration: underline;
+    outline: none;
+    color: #4EB543;
+    border: 0;
+}
+.green-color {
+    color: #4EB543 !important;
+}
+.w-119 {
+    max-width: 119px;
+    width: 100%;
+}
+.sec-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.0124em;
+    color: #27364B;
+    margin: 0;
+}
+.sec-card {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.w-20 {
+    width: 20% !important;
+}
+.w-30 {
+    width: 30% !important;
+}
+.w-40 {
+    width: 40% !important;
+}
+.w-50 {
+    width: 50% !important;
+}
+.w-40 {
+    width: 40% !important;
+}
+.content-heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.0124em;
+    color: #1E2A3B;
+}
+.content-secction p,
+.content-section p,
+.content-secction ul li,
+.content-section ul li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.0048em;
+    color: #475569;
+    margin-bottom: 10px;
+}
+.bg-gray-custom {
+    background: #FBFBFB;
+}
+.form-heading {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #64748B;   
+}
+.content-subheading {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.0124em;
+    color: #1E2A3B;
+}
+.content-listing {
+    list-style: circle;
+    padding-left: 20px;
+}
+.content-secction ul li,
+.content-section ul li {
+    margin: 0;
+}
+.form-control[readonly] {
+    background-color: #ffffff;
+}
+.border-right-1 {
+    border-right: 1px solid #E2E8F0;
+}
+.color-light-gray {
+    color: #475569;
+}
+.interest-rate-table {
+    background: #FFFFFF;
+    border: 1px solid #E7E7ED;
+    border-radius: 4px;
+}
+.interest-rate-table table {
+    margin-bottom: 0;
+    caption-side: bottom;
+    border-collapse: collapse;
+    vertical-align: top;
+    width: 100%;
+}
+.interest-rate-table table thead {
+    background: #EAFBE7;
+    box-shadow: inset 0px -1px 0px #e7e7ed;
+}
+.interest-rate-table table tr th, .interest-rate-table table tr td {
+    padding: 15px 12px;
+    text-align: left;
+}
+.interest-rate-table table thead tr th {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #272833;
+}
+.interest-rate-table table tr td {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #272833;
+}
+.interest-rate-table table tbody tr {
+    border-bottom: 1px solid #E2E8F0;
+}
+.interest-rate-table table tbody tr:last-child {
+    border-bottom: 0;
+}
+.border-left-1 {
+    border-left: 1px solid #ddd !important;
+}
+.border-top-1 {
+    border-top: 1px solid #ddd !important; 
+}
+.border-right-1 {
+    border-right: 1px solid #ddd !important;
+}
+.border-bottom-1 {
+    border-bottom: 1px solid #ddd !important;
+}
+.w-15 {
+    width: 15%!important;
+}
+.w-20 {
+    width: 20%!important;
+}
+.w-30 {
+    width: 30%!important;
+}
+.w-40 {
+    width: 40%!important;
+}
+.text-nowrap {
+    white-space: nowrap !important;
+}
+.blog-heading-box h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.0124em;
+    color: #27364B;
+}
+
+.form-group label a {
+    font-size: 13px;
+}
+.form-control[readonly] {
+    background-color: #ffffff;
+}
+.border-right-1 {
+    border-right: 1px solid #E2E8F0;
+}
+.color-light-gray {
+    color: #475569;
+}
+.interest-rate-table {
+    background: #FFFFFF;
+    border: 1px solid #E7E7ED;
+    border-radius: 4px;
+}
+.interest-rate-table table {
+    margin-bottom: 0;
+    caption-side: bottom;
+    border-collapse: collapse;
+    vertical-align: top;
+    width: 100%;
+}
+.interest-rate-table table thead {
+    background: #EAFBE7;
+    box-shadow: inset 0px -1px 0px #e7e7ed;
+}
+.interest-rate-table table tr th, .interest-rate-table table tr td {
+    padding: 15px 12px;
+    text-align: left;
+}
+.interest-rate-table table thead tr th {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #272833;
+}
+.interest-rate-table table tr td {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #272833;
+}
+.interest-rate-table table tbody tr {
+    border-bottom: 1px solid #E2E8F0;
+}
+.interest-rate-table table tbody tr:last-child {
+    border-bottom: 0;
+}
+.border-left-1 {
+    border-left: 1px solid #ddd !important;
+}
+.border-top-1 {
+    border-top: 1px solid #ddd !important; 
+}
+.border-right-1 {
+    border-right: 1px solid #ddd !important;
+}
+.border-bottom-1 {
+    border-bottom: 1px solid #ddd !important;
+}
+.w-15 {
+    width: 15%!important;
+}
+.w-20 {
+    width: 20%!important;
+}
+.w-30 {
+    width: 30%!important;
+}
+.w-40 {
+    width: 40%!important;
+}
+.text-nowrap {
+    white-space: nowrap !important;
+}
+
+.cibil-terms {
+    max-height: 75vh;
+    overflow-x: auto;
+}
+.cibil-terms::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.cibil-terms::-webkit-scrollbar {
+    width: 5px;
+    background-color: #FFFFFF;
+}
+
+.cibil-terms::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #4EB543;
+}
+.bootoast-container .close {
+    display: none;
+}
+@media (max-width: 991.98px) {
+    .border-md-0 {
+        border: 0 !important;
+    }
+}
+@media (max-width: 767.98px) {
+    .border-sm-0 {
+        border: 0 !important;
+    }
+    .sec-heading {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .content-heading {
+        font-size: 18px;
+    }
+    .form-group label a {
+        font-size: 13px;
+    }
+}
+@media (max-width: 575.98px) {
+    .footer-menu ul .footer-menu-items a {
+        padding: 0 10px;
+    }
+    .footer-menu-items img {
+        margin-left: 5px !important;
+    }
+    .footer-menu ul {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family : 'gotham-rounded-light';
+    font-display: swap;
+    font-style  : normal;
+    font-weight : normal;
+    src         : url('../fonts/gotham-rounded-light.eot') format('truetype');
+    src         : url('../fonts/gotham-rounded-light.otf') format('otf');
+    src         : url('../fonts/gotham-rounded-light.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family : 'gotham-rounded-light-Medium';
+    font-display: swap;
+    font-style  : normal;
+    font-weight : normal;
+    src         : url('../fonts/gotham-rounded-light-Medium.eot') format('truetype');
+    src         : url('../fonts/gotham-rounded-medium.otf') format('otf');
+    src         : url('../fonts/gotham-rounded-medium.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family : 'gotham-rounded-light-Bold';
+    font-display: swap;
+    font-style  : normal;
+    font-weight : normal;
+    src         : url('../fonts/gotham-rounded-light-Bold.eot') format('truetype');
+    src         : url('../fonts/gotham-rounded-bold.otf') format('otf');
+  }
+  
+  @font-face {
+    font-family : 'Gotham-Light';
+    font-display: swap;
+    font-style  : normal;
+    font-weight : normal;
+    src         : url('../fonts/Gotham-Light.eot') format('truetype');
+    src         : url('../fonts/Gotham-Light.otf') format('otf');
+    src         : url('../fonts/Gotham-Light.ttf') format('ttf');
+    src         : url('../fonts/Gotham-Light.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family : 'Gotham-Medium';
+    font-display: swap;
+    font-style  : normal;
+    font-weight : normal;
+    src         : url('../fonts/Gotham-Medium.eot') format('truetype');
+    src         : url('../fonts/Gotham-Medium.otf') format('otf');
+    src         : url('../fonts/Gotham-Medium.ttf') format('ttf');
+    src         : url('../fonts/Gotham-Medium.woff') format('woff');
+  }

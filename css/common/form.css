@@ -1,0 +1,500 @@
+/* form Css */
+.form-group {
+    margin: 0;
+    padding: 0 0 20px 0;
+    line-height: 1;
+    position: relative;
+}
+.form-group label {
+    font-size: 12px;
+    color: #666;
+    font-weight: 400;
+    line-height: 1;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+.form-group .form-control {
+    margin-bottom: 7px;
+}
+.form-control,
+.form-group .form-control {
+    border: 0;
+    background-image: linear-gradient(#009688, #009688),
+        linear-gradient(#d2d2d2, #d2d2d2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: rgba(0, 0, 0, 0);
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: 36px;
+    padding: 6px 0 !important;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.42857143;
+    display: block;
+    width: 100%;
+}
+.check-field,
+.form-option-field,
+.radio-field {
+    margin-bottom: 7px;
+}
+.check-field label,
+.radio-field label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    margin-right: 15px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 4px 0 0;
+    line-height: normal;
+}
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked),
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked) {
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.form-group.has-error .ui-selectmenu-button .form-control, .form-group.has-error .ui-selectmenu-button .ui-selectmenu-text {
+    background-image: linear-gradient(#f44336, #f44336), linear-gradient(#d2d2d2, #d2d2d2);
+    background-size: 100% 2px, 100% 1px;
+    transition-duration: .3s;
+}
+input[type="radio"] + i:after,
+input[type="radio"] + i:before,
+input[type="radio"] + label:after,
+input[type="radio"] + label:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2px 0;
+}
+input[type="radio"] + i:before,
+input[type="radio"] + label:before {
+    border: 2px solid #5a5a5a;
+    cursor: pointer;
+}
+input[type="radio"] + i:after,
+input[type="radio"] + label:after {
+    border: 2px solid #5a5a5a;
+    border-radius: 50%;
+    transform: scale(0);
+    z-index: -1;
+}
+.check-field label span,
+.radio-field label span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    padding-top: 2px;
+    padding-left: 4px;
+    color: #333;
+}
+input[type="radio"]:checked + i:before,
+input[type="radio"]:checked + label:before {
+    border: 2px solid #3ab64a;
+    cursor: pointer;
+}
+input[type="radio"]:checked + i:after,
+input[type="radio"]:checked + label:after {
+    background-color: #3ab64a;
+    border: 2px solid #3ab64a;
+    transform: scale(0.5);
+    z-index: 0;
+    -webkit-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+}
+.check-field label {
+    line-height: 20px;
+}
+.check-field label input[type="checkbox"] + i {
+    border-radius: 0;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px 0 0;
+    position: relative;
+}
+.check-field label input[type="checkbox"] + i:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    border: 2px solid #5a5a5a;
+}
+.check-field label input[type="checkbox"] + i:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    transform: rotate(45deg);
+    transition: 0.2s linear;
+}
+.check-field label input[type="checkbox"] + i + span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 4px;
+}
+.check-field label input[type="checkbox"]:checked + i:before {
+    border: 2px solid #39b54a;
+    background-color: #39b54a;
+}
+.check-field label input[type="checkbox"]:checked + i:after {
+    content: "";
+    width: 5px;
+    height: 9px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    transform: rotate(45deg);
+    transition: 0.2s linear;
+}
+.ui-selectmenu-button.ui-button {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+    background: 0 0;
+}
+.ui-selectmenu-button span.ui-icon {
+    right: 0.5em;
+    left: auto;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+}
+.ui-selectmenu-button.ui-button .ui-icon {
+    background: 0 0;
+    text-indent: 0;
+    text-align: right;
+}
+.ui-selectmenu-button.ui-button .ui-icon:before {
+    content: "\f0d7";
+    font-family: fontawesome;
+    font-size: 14px;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+    text-align: left;
+    display: block;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+    border-bottom: 0 none;
+    color: #666;
+}
+.ui-selectmenu-open .ui-menu {
+    max-height: 200px;
+    overflow-y: auto;
+}
+.ui-selectmenu-menu .ui-menu {
+    background-color: #fff;
+    border-radius: 0;
+    margin-top: -8px;
+    border: 0 none;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 12%);
+}
+.ui-selectmenu-menu .ui-menu li {
+    padding: 0;
+    width: 100%;
+}
+.ui-selectmenu-menu .ui-menu .ui-menu-item-wrapper {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    padding: 10px 16px;
+    border: 0 none;
+    margin: 0;
+}
+.ui-selectmenu-menu .ui-menu .ui-menu-item-wrapper.ui-state-active,
+.ui-selectmenu-menu .ui-menu .ui-menu-item-wrapper:hover {
+    background-color: #f4f4f4;
+    border: 0 none;
+    color: #333;
+    padding: 10px 16px;
+}
+/* focused or error css */
+.form-group.is-focused label,
+.is-focused label,
+.form-group.is-focused label.control-label,
+.is-focused label.control-label {
+    color: #39b549;
+}
+.form-group.is-focused .form-control,
+.is-focused .form-control {
+    outline: 0;
+    background-image: linear-gradient(#39b549, #39b549),
+        linear-gradient(#d2d2d2, #d2d2d2);
+    background-size: 100% 2px, 100% 1px;
+    box-shadow: none;
+    transition-duration: 0.3s;
+    color: #666;
+}
+.form-group.has-error label,
+.has-error label {
+    color: #f44336;
+}
+.form-control.error,
+.form-control.invalid,
+.form-group.is-focused .form-control.error,
+.form-group.is-focused .form-control.invalid {
+    background-image: linear-gradient(#f44336, #f44336),
+        linear-gradient(#d2d2d2, #d2d2d2);
+    background-size: 100% 2px, 100% 1px;
+    transition-duration: 0.3s;
+}
+.form-group.has-error .form-control {
+    box-shadow: none;
+}
+.form-group.has-error.is-focused label {
+    color: #39b54a;
+}
+
+.form-group.has-error .ui-selectmenu-button .form-control,
+.form-group.has-error .ui-selectmenu-button .ui-selectmenu-text {
+    background-image: linear-gradient(#f44336, #f44336),
+        linear-gradient(#d2d2d2, #d2d2d2);
+    background-size: 100% 2px, 100% 1px;
+    transition-duration: 0.3s;
+}
+
+.check-field.error label i:before,
+.check-field.invalid label i:before{
+    border: 2px solid #f44336;
+}
+input[type="radio"]:checked + i:before,
+input[type="radio"]:checked + label:before {
+    border: 2px solid #3ab64a;
+    cursor: pointer;
+}
+.form-group.has-error .check-field label.check_show,
+.has-error .check-field label.check_show {
+    color: #666;
+}
+.form-group.is-focused .check-field label.check_show,
+.is-focused .check-field label.check_show,
+.form-group.is-focused .check-field label.check_show,
+.is-focused label.control-label {
+    color: #666;
+}
+/* .form-group.has-error .check-field label input[type="checkbox"] + i:before {
+    border: 2px solid #f44336;
+} */
+.submit-btn {
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 0;
+    position: relative;
+    border: none;
+    font-size: 14px;
+    padding: 10px 12px;
+    min-width: 104px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 1.42857143;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%),
+        0 1px 5px 0 rgb(0 0 0 / 12%);
+    background-color: #39b54a;
+    color: #fff;
+    border-color: #39b54a;
+}
+.submit-btn:hover,
+.submit-btn:active,
+.submit-btn:focus {
+    color: #fff;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 23%);
+    background-color: #61c46d;
+    border-color: #61c46d;
+}
+span.help-block {
+    display: none;
+}
+/* multi select */
+#loanroicompare .ms-options-wrap > button,
+#loanroicompare .ms-options-wrap > button:focus,
+#loanroicompare .ms-options-wrap > button:active,
+#loanroicompare .ms-options-wrap > button:hover {
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #959595;
+    text-indent: 5px;
+    font-size: 14px;
+    line-height: 40px;
+    width: 100%;
+    text-align: left;
+    outline: 0;
+    white-space: nowrap;
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+.ms-options-wrap > button:after {
+    content: "\f0dd";
+    top: 0;
+    right: 12px;
+    margin: 0;
+    color: #4f4f4f;
+    border: 0 none;
+    font-family: fontAwesome;
+    position: absolute;
+}
+.ms-options-wrap > .ms-options {
+    margin-top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-top: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    background: #fff;
+    z-index: 2000;
+    border: 1px solid #aaa;
+}
+.ms-options-wrap > .ms-options > .ms-search input {
+    padding: 8px 5px;
+    border: #eee solid 1px;
+    width: 100%;
+    height: 30px;
+    margin: 0 0 20px;
+    line-height: 30px;
+}
+.ms-options-wrap > .ms-options > .ms-selectall.global {
+    background-color: #f6f6f6;
+    padding: 8px 5px;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #39b54a;
+    text-decoration: none;
+}
+.ms-options ul li {
+    border-bottom: #ddd dashed 1px;
+    width: 100%;
+}
+.ms-options-wrap > .ms-options > ul label {
+    padding: 10px 10px 10px 24px;
+}
+.ms-options-wrap .ms-options ul li label {
+    padding-left: 35px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.ms-options-wrap > .ms-options > ul label:hover,
+.ms-options-wrap > .ms-options > ul li.selected label {
+    background-color: #efefef;
+    position: relative;
+}
+.ms-options-wrap .ms-options ul li label:after,
+.ms-options-wrap .ms-options ul li label:before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 7.5px;
+    transition: border 0.25s, background-color 0.25s, width 0.2s 0.1s,
+        height 0.2s 0.1s, top 0.2s 0.1s, left 0.2s 0.1s;
+}
+.ms-options-wrap .ms-options ul li label:before {
+    top: 10px;
+    left: 6px;
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    -webkit-transform: rotateZ(37deg);
+    transform: rotateZ(37deg);
+    -webkit-transform-origin: 20% 40%;
+    transform-origin: 100% 100%;
+}
+.ms-options-wrap > .ms-options > ul input[type="checkbox"] {
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 5px;
+    left: 6px;
+    top: 1px;
+}
+.ms-options-wrap .ms-options ul li label:after {
+    z-index: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #5a5a5a;
+    background-color: transparent;
+}
+.ms-options-wrap > .ms-options > ul li.selected label, .ms-options-wrap > .ms-options > ul label:hover {
+    background-color: #efefef;
+    position: relative;
+}
+.ms-options-wrap .ms-options ul li.selected label:before {
+    top: 12px;
+    left: 7.5px;
+    width: 8px;
+    height: 13px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid transparent;
+    -webkit-transform: rotateZ(37deg);
+    transform: rotateZ(37deg);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+.ms-options-wrap .ms-options ul li.selected label:after {
+    z-index: 0;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #39b54a;
+    background-color: #39b54a;
+}
+.ms-options-wrap > .ms-options > .ms-search input {
+    padding: 8px 5px;
+    border: #eee solid 1px;
+    width: 100%;
+    height: 30px;
+    margin: 0 0 20px;
+    line-height: 30px;
+}
+.form-control:hover,
+.form-control:focus,
+.form-control:active {
+    background-color: rgba(0, 0, 0, 0);
+}
+.year-lbl {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 30px;
+}
+.form-control.DOB[readonly] {
+    background-color: #ffffff;
+}

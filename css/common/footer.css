@@ -1,0 +1,96 @@
+.loader {
+    z-index: #ccc9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+}
+.loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+}
+html,
+body {
+    min-height: 100%;
+    color: #333;
+}
+body {
+    background: #f4f4f4;
+    font-family: "Roboto", "Roboto-Regular", sans-serif;
+}
+
+/* footer */
+footer .footer-eb {
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    background-color: #1c2731;
+    border-radius: 5px;
+}
+footer .footer-eb .footer-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+    color: #fff;
+    gap: 10px;
+    font-size: 14px;
+}
+footer .footer-eb .footer-detail a {
+    color: #fff;
+}
+footer .footer-eb .footer-detail a:hover,
+footer .footer-eb .footer-detail a:focus,
+footer .footer-eb .footer-detail a:active {
+    color: #f6f6f6;
+    opacity: 0.6;
+    text-decoration: none;
+}
+footer .footer-eb p {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+}
+footer .footer-eb p a[href="mailto:contactus@wishfin.com"] {
+    color: #39b54a;
+}
+footer .footer-eb p a[href="mailto:contactus@wishfin.com"]:hover,
+footer .footer-eb p a[href="mailto:contactus@wishfin.com"]:active,
+footer .footer-eb p a[href="mailto:contactus@wishfin.com"]:focus {
+    outline: 0;
+    text-decoration: underline;
+}
+.readmore {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.readmore:focus,
+.readmore:hover,
+.readmore:active {
+    color: #fff;
+    opacity: 0.6;
+    text-decoration: none;
+}
+@media (max-width: 767px) {
+    footer .footer-eb .footer-detail {
+        padding-left: 0;
+        margin-bottom: 15px;
+    }
+}
+
+/* footer */

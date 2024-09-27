@@ -1,0 +1,137 @@
+.wishfin-unsubscribe {
+    padding: 50px 0;
+}
+
+.back-btn a,
+.back-btn a:hover,
+.back-btn a:focus,
+.back-btn a:active {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.0124em;
+    color: #1e2a3b;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.form-section {
+    background: #ffffff;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    padding: 30px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.008em;
+    color: #1e2a3b;
+}
+
+.txt-14 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.0048em;
+    color: #1e2a3b;
+}
+
+/* OTP Modal */
+.otp-sec h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #1e2a3b;
+    margin-bottom: 10px;
+}
+
+.otp-sec p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #27364b;
+    margin-bottom: 20px;
+}
+
+.otp-sec .digit-group .digit {
+    max-width: 82.92px;
+    width: 100%;
+    height: 54px;
+    background: #ffffff;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+}
+
+.otp-sec .digit-group .digit:hover,
+.otp-sec .digit-group .digit:focus,
+.otp-sec .digit-group .digit:active,
+.otp-sec .digit-group .digit:focus-visible,
+.otp-sec .digit-group .digit:focus-within {
+    outline: #4EB543;
+    box-shadow: none;
+}
+
+.__mr_20 {
+    margin-right: 15px;
+}
+
+#resend_otp {
+    display: block;
+}
+
+.__theme_color,
+.editmob_btn {
+    color: #4EB543;
+    font-weight: 400;
+}
+
+.editmob_btn {
+    text-decoration: underline;
+}
+
+.otp-sec .form-group .help-block.otp_error_box {
+    display: none;
+}
+.otp-sec .form-group.has-error .help-block.otp_error_box {
+    font-size: 11px;
+    line-height: 11px;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%);
+    color: red;
+    display: block;
+}
+/* End OTP */
+
+@media (max-width: 1199.98px) {
+    .otp-sec .digit-group .digit {
+        max-width: 52.92px;
+        height: 54px;
+    }
+}
+@media (max-width: 991.98px) {
+    .wishfin-unsubscribe {
+        padding: 100px 0 50px 0;
+    }
+
+    .form-section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 374.98px) {
+    .otp-sec .digit-group .digit {
+        max-width: 48.92px;
+        height: 50px;
+    }
+}

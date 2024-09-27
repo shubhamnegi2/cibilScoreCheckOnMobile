@@ -1,0 +1,102 @@
+.loader {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+}
+.form-control::-moz-placeholder,.form-group .form-control::-moz-placeholder {
+    color: #bdbdbd;
+    font-weight: 400
+}
+
+.form-control:-ms-input-placeholder,.form-group .form-control:-ms-input-placeholder {
+    color: #bdbdbd;
+    font-weight: 400
+}
+
+.form-control::-webkit-input-placeholder,.form-group .form-control::-webkit-input-placeholder {
+    color: #bdbdbd;
+    font-weight: 400
+}
+h1 {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #1c2731;
+}
+.banner-heading {
+    background: #ffffff;
+    margin: 35px 0 25px 0;
+}
+.banner-heading h1 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.cu_common_section {
+    padding: 20px 0;
+}
+p {
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+ul.list-disc {
+    list-style: disc;
+    padding-left: 12px;
+}
+ul.list-disc li {
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #333;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+strong {
+    font-weight: 900 !important;
+}
+
+.dot-list {
+    list-style-type: disc !important;
+    padding-left: 25px !important;
+}
+.dot-list li {
+    color: #666;
+}
+
+@media (max-width: 991.98px) {
+    .banner-heading {
+        margin: 80px 0 0 0;
+    }
+}
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .cibil-terms-and-condition .cu_common_section {
+        padding: 20px 10px;
+    }
+}
