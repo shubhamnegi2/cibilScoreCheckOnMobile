@@ -1,0 +1,595 @@
+* {
+    font-family: Inter;
+}
+
+/* chart css start */
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0em auto;
+}
+
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 00px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+.highcharts-a11y-proxy-element,
+.highcharts-no-tooltip,
+.highcharts-credits {
+    display: none !important;
+}
+
+.scoreScore {
+    /* bottom: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%); */
+    font-size: 14px;
+    font-weight: 700;
+    color: #00B7B6;
+}
+
+.lastUpdated {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #64748B;
+    margin: 20px 0px;
+}
+
+.reportWrapper {
+    border-top: 1px solid #E2E8F0;
+}
+
+.reportWrapper div {
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.reportWrapper div img {
+    height: fit-content;
+    margin-right: 8px;
+}
+
+.reportWrapper div:first-child {
+    border-right: 1px solid #E2E8F0;
+}
+
+.cibilScoreChartWrapper {
+    box-shadow: 0px 1px 14.4px 0px #00000014;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+}
+
+#cibilScoreChart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 200px;
+    width: 300px;
+}
+
+.chartContainer {
+    padding: 15px 15px 0px 15px;
+}
+
+/* chart css end */
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #1E2A3B;
+}
+
+
+.highcharts-figure #container {
+    max-height: 250px;
+    overflow: hidden;
+    margin-top: -34px;
+    z-index: -1;
+    position: relative;
+}
+
+.loanQuote {
+    border: 1px solid #E6E8EC;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.loanQuote p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+/* ================= middle Sec css start    ================== */
+.middleSec h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #27364B;
+    margin-bottom: 5px;
+}
+
+.quotesImg img {
+    width: 100%;
+}
+
+.middleSec p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.userfinancialDetails {
+    border-right: 1px solid #E3E3E3;
+    padding-bottom: 100px;
+}
+
+.userfinancialDetails .historyCard {
+    margin-bottom: 16px;
+    padding: 8px 0px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.historyCard img {
+    height: fit-content;
+    max-width: 30px;
+    margin-right: 8px;
+}
+
+.userfinancialDetails .historyCard p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    color: #000000;
+}
+
+.historyCard span {
+    background-color: #AEEAD4;
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.historyCard h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+}
+
+.historyCard em {
+    font-size: 11px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.historyCard:nth-child(2) span {
+    background-color: #FEEEB7;
+}
+
+.historyCard:nth-child(3) span {
+    background-color: #FFE2DA;
+}
+
+.historyCard:nth-child(4) span {
+    background-color: #AEEAD4;
+}
+
+.activeCardLeft {
+    border-right: 3px solid #4EB543;
+}
+
+
+.paymentHistoryFilters .ui-selectmenu-button.ui-button {
+    width: 25% !important;
+    border-radius: 20px;
+}
+
+.PaymentHistoryDetails .ui-selectmenu-button,
+.PaymentHistoryDetails .ui-selectmenu-button:hover,
+.PaymentHistoryDetails .ui-selectmenu-button:focus,
+.PaymentHistoryDetails .ui-selectmenu-button:active {
+    height: 25px;
+    padding: 0;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.PaymentHistoryDetails .ui-selectmenu-text {
+    font-size: 12px;
+}
+
+.PaymentHistoryDetails p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #64748B;
+}
+
+.highcharts-scrolling::-webkit-scrollbar {
+    height: 5px;
+    background-color: #fff;
+}
+
+.highcharts-scrolling::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #4eb543;
+}
+
+.highcharts-scrolling::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.bottomSuggestion {
+    background-color: #1A345F;
+    border: 1px solid #E2E8F0;
+    border-radius: 6px;
+}
+
+.bottomSuggestion p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    padding: 0px 15px 0 10px;
+}
+
+.imgWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0px 50% 50% 0px;
+}
+
+.imgWrapper img {
+    width: 50px;
+    display: inline-block;
+    margin: 5px 6px 8px 4px;
+}
+
+.userfinancialDetails {
+    position: relative;
+}
+
+.detailedDetails {
+    position: absolute;
+    top: 0px;
+    left: 105%;
+    width: 142.28%;
+
+}
+
+.ccBasicDetails div {
+    width: 50%;
+}
+
+.ccBasicDetails span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.ccBasicDetails p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1E2A3B;
+}
+
+#creditCardUtilizationDetialsChart {
+    /* width: 350px;
+    height: 250px; */
+}
+
+.cardSpending {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+
+.cardSpending li {
+    font-size: 11px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.cardSpending li span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.cardSpending li:first-child span {
+    background-color: #14B8A6;
+}
+
+.cardSpending li:nth-child(2) span {
+    background-color: #3B82F6;
+}
+
+.cardSpending li:nth-child(3) span {
+    background-color: #F59E0B;
+}
+
+.cardSpending li:nth-child(4) span {
+    background-color: #FACC15;
+}
+
+.detailedDetails a {
+    color: #43973A;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.PaymentHistoryDetails,
+.creditCardUtilizationDetials,
+.TotalAccountDetials,
+.CreditEnquiriesDetials {
+    display: none;
+}
+
+.detailedDetails.activeChart {
+    display: block;
+}
+
+.cardChartShow {
+    margin-left: 20px;
+}
+
+#TotalAccountDetialsChart {
+    width: 250px;
+}
+
+
+.faq {
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.faq .heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: #27364B;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-body {
+    background-color: #FBFBFB;
+    color: #27364B;
+}
+
+.accordion-body {
+    border-radius: 0px 0px 6px 6px;
+    border: 1px solid #E2E8F0;
+    border-top: 0;
+}
+
+.accordion-button {
+    box-shadow: none;
+    color: #27364B;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px 6px 0px 0px;
+    border: 1px solid #E2E8F0;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    color: #27364B;
+    border-color: #E2E8F0;
+}
+
+.chartContainer img {
+    height: fit-content;
+}
+
+
+
+.historyCard img {
+    display: none;
+}
+
+#creditCardUtilizationDetialsChart {
+    width: 200px;
+    height: 200px;
+}
+
+/* ================= middle Sec css end    ================== */
+
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    #cibilScoreChart {
+        width: 90%;
+    }
+
+    .highcharts-figure,
+    .highcharts-data-table table {
+        min-width: 90%;
+        max-width: 500px;
+    }
+
+    .reportWrapper div {
+        font-size: 11px;
+    }
+
+    .bottomSuggestion p {
+        font-size: 13px;
+    }
+
+    .bottomSuggestion p br {
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hamburgermenu {
+        display: none !important;
+    }
+
+    .cibilHamburgermenu {
+        display: block;
+    }
+
+    main {
+        position: relative;
+        margin-top: 70px;
+    }
+
+   
+
+    .detailedDetails {
+        position: static;
+    }
+
+    .detailedDetails {
+        width: 100%;
+    }
+
+    .userfinancialDetails {
+        border: none;
+    }
+
+    .userfinancialDetails .historyCard {
+        border: 1px solid #E2E8F0;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .detailedDetails.activeChart {
+        border: 1px solid #E2E8F0;
+        padding: 10px;
+        border-radius: 0px 0px 5px 5px;
+        margin-bottom: 20px;
+        margin-top: -18px;
+        border-top: none;
+    }
+
+    .historyCard img {
+        display: inline-block;
+    }
+
+    #cibilScoreChart {
+        width: 80%;
+        height: 300px;
+    }
+    .userfinancialDetails {
+        padding-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+
+    .reportWrapper div {
+        font-size: 13px;
+    }
+
+    .middleSec h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576.98px) {
+
+    .highcharts-figure,
+    .highcharts-data-table table {
+        min-width: 200px;
+        max-width: 300px;
+        margin: 0em auto;
+    }
+
+    #cibilScoreChart {
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    main {
+        margin-top: 75px;
+    }
+
+    .chartContainer {
+        padding: 15px 0px 0px 0px;
+    }
+
+    .loanQuote p {
+        font-size: 13px;
+    }
+
+    .loanQuote {
+        padding: 15px 10px;
+    }
+
+    .middleSec p {
+        font-size: 12px;
+    }
+
+    .middleSec p br {
+        display: none;
+    }
+
+    .cardChartShow {
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .faq .heading{
+        font-size: 16px;
+    }
+    #highcharts-figure3{
+        display: flex;
+        justify-content: center;
+    }
+}

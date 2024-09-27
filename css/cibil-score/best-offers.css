@@ -1,0 +1,213 @@
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #27364B;
+}
+
+.topPara {
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.tabBtns button {
+    border: 1px solid #CBD4E1;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #64748B;
+}
+
+.tabBtns button:last-child {
+    margin-right: 0;
+}
+
+.tabBtns button.activeTab {
+    background-color: #4EB543;
+    color: #FFFFFF;
+}
+
+.myCards,
+.myccCards {
+    padding: 20px;
+    border-radius: 3px;
+    height: 100%;
+    border: 1px solid #F1F4F9;
+    border-left: 5px solid #F1F4F9;
+}
+
+.myccCards {
+    /* box-shadow: 0px 0px 25px 0px #0000001A; */
+
+}
+
+.myccCards img {
+    max-width: 120px;
+}
+
+.myCards img {
+    max-width: 100%;
+    height: fit-content;
+}
+
+.myccCards a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #64748B;
+    background-color: #F1F4F9;
+    padding: 8px 0px;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+}
+
+.myCards a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #64748B;
+    background-color: #F1F4F9;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.backBtn{
+    height: fit-content;
+    cursor: pointer;
+}
+.myccCards a:hover,
+.myCards a:hover {
+    text-decoration: none;
+}
+
+.myccCards h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1E2A3B;
+}
+
+.myccCards h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #475569;
+    margin-left: 15px;
+}
+
+.myCards ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.myccCards ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.myccCards li {
+    background-size: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #475569;
+    margin-bottom: 5px;
+}
+
+.myCards li {
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-left: 25px;
+    background-size: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #475569;
+    margin-bottom: 10px;
+}
+
+.joiningFee {
+    font-size: 14px;
+    font-weight: 500;
+    color: #27364B;
+}
+
+.myCards li strong {
+    color: #475569;
+}
+
+.preQuallified {
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+    color: #FF7449;
+    align-content: center;
+}
+
+.preQuallified span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #FF7449;
+    margin-right: 3px;
+}
+
+.myCards:hover {
+    border-left: 5px solid #4eb543;
+    box-shadow: 0px 0px 3px 0px #00000021;
+}
+
+.myCards:hover a {
+    background-color: #4eb543;
+    color: #fff;
+}
+.myccCards:hover {
+    border-left: 5px solid #4eb543;
+    box-shadow: 0px 0px 25px 0px #0000001A;;
+}
+
+.myccCards:hover a {
+    background-color: #4eb543;
+    color: #fff;
+}
+
+.allOffersWrapper {
+    display: none;
+}
+
+.activeOffer {
+    display: block;
+}
+
+@media (max-width: 991.98px) {
+    main {
+        position: relative;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .myCards img {
+        max-width: 40%;
+    }
+
+    .myCards a {
+        padding: 3px 10px;
+        font-size: 11px;
+    }
+
+    .tabBtns button {
+        font-size: 12px;
+        margin-right: 10px;
+        padding: 5px 14px;
+    }
+
+    .topPara {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+}

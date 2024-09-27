@@ -1,0 +1,66 @@
+
+/* ===============aside css start ================ */
+aside {
+    background-color: #F2F0EB;
+    height: 100%;
+    min-height: 100vh;
+    padding: 30px 15px;
+    border-radius: 9px;
+}
+
+aside ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+aside ul a img {
+    max-width: 25px;
+    margin-right: 8px;
+}
+
+aside ul a.active {
+    color: #2C3041;
+    font-weight: 700;
+}
+
+aside ul a {
+    display: block;
+    display: flex;
+    align-items: center;
+    padding: 8px 0px;
+    margin: 5px 0px;
+    color: #2C3041;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+aside ul a:hover {
+    text-decoration: none;
+}
+@media (max-width: 991.98px) {
+   
+
+    aside {
+        position: fixed;
+        top: 65px;
+        left: 0px;
+        width: 100%;
+        padding: 20px;
+        border-radius: 0px;
+        z-index: 99;
+        min-height: auto;
+        /* height: 300px; */
+        display: none;
+    }
+
+    aside ul a {
+        justify-content: center;
+    }
+
+    aside ul a img {
+        display: none;
+    }
+
+}

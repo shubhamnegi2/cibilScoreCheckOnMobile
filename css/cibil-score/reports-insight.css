@@ -1,0 +1,524 @@
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #27364B;
+}
+
+.topPara {
+    font-size: 14px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.tabBtns button {
+    border: 1px solid #CBD4E1;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    color: #64748B;
+    margin-bottom: 15px;
+}
+
+select:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.tabBtns button:last-child {
+    margin-right: 0;
+}
+
+.tabBtns button.activeTab {
+    background-color: #4EB543;
+    color: #FFFFFF;
+}
+
+.myCards {
+    border: 1px solid #E2E8F0;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+select {
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #27364B;
+    padding-right: 10px;
+}
+
+
+.ccBasicDetails div {
+    width: 50%;
+}
+
+.ccBasicDetails span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.ccBasicDetails p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1E2A3B;
+}
+
+.highcharts-a11y-proxy-element,
+.highcharts-no-tooltip,
+.highcharts-credits {
+    display: none !important;
+}
+
+#loanDetialsChart {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+.cardSpending {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.cardSpending li {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.cardSpending li span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+    font-weight: 400;
+    color: #64748B;
+}
+
+.cardSpending li strong {
+    /* padding-left: 14px; */
+    font-weight: 600;
+    font-size: 12px;
+    color: #27364B;
+}
+
+.cardSpending li:first-child span {
+    background-color: #5FC088;
+}
+
+.cardSpending li:last-child span {
+    background-color: #E6E6E6;
+}
+
+.phPara {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3E7B38;
+}
+
+.phPara span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.paymnetHistoryTable {
+    border: 1px solid #E2E8F0;
+    overflow: hidden;
+}
+
+.paymentYearWrapper {
+    background-color: #EBF4E9;
+    border-radius: 3px 3px 0 0;
+}
+
+.paymentMonthWrapper {
+    border-radius: 0 0 3px 3px;
+    padding: 20px 0px 10px 0px;
+    display: none;
+}
+
+.paymentMonthWrapper.active {
+    display: block;
+}
+
+.paymentMonth {
+    font-size: 13px;
+    font-weight: 400;
+    color: #27364B;
+}
+
+.paymentMonth img {
+    margin-top: 5px;
+    max-width: 20px;
+}
+
+.paymentYear {
+    padding: 10px 0px;
+    display: block;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #94A3B8;
+}
+
+.paymentYear.active {
+    border-bottom: 2px solid #4EB543;
+    color: #0F1A2A;
+    font-weight: 600;
+}
+
+.paymentYear,
+.paymentMonth {
+    text-align: center;
+}
+
+.paymentStatus ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 11px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.paymentStatus ul li {
+    display: flex;
+    align-items: center;
+}
+
+.paymentStatus ul li img {
+    margin-right: 5px;
+    max-width: 16px;
+}
+
+.paymentStatus ul li:first-child {
+    margin-right: 20px;
+}
+
+
+/* tips */
+.tips {
+    background-color: #E7F1ED;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.tips img {
+    height: fit-content;
+}
+
+.tipsImageWrapper {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 85%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 1px dashed #B4B4B4;
+
+}
+
+.tips .content h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #292929;
+    margin: 0;
+}
+
+.tips .content p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #292929;
+    margin: 0;
+}
+
+.PersonalizedTips h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.mobileTipsImg {
+    display: none;
+}
+
+/* best cc section start */
+#ccDetialsChart {
+    width: 200px;
+    height: 200px;
+}
+
+.CreditCardUtilization .cardSpending li:first-child span {
+    background-color: #45C752;
+}
+
+.CreditCardUtilization .cardSpending li:last-child span {
+    background-color: #3E88EC;
+}
+
+.bankAccountCountWrapper {
+    background-color: #F9F8F6;
+    border: 1px solid #E2E8F0;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.bankAccountCountWrapper h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #27364B;
+}
+
+.bankAccountCard {
+    box-shadow: 0px 2px 27px 0px #0000001F;
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.cardTopSec {
+    box-shadow: 0px 1px 0px 0px #F1F4F9;
+}
+
+.cardTopSec img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.cardTopSec h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #454657;
+    margin: 0;
+}
+
+.ccNumber {
+    font-size: 11px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+.cardTopSec p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #4EB543;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.cardTopSec p span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #4EB543;
+    margin-right: 5px;
+}
+
+.cardOtherDetails span {
+    font-size: 10px;
+    font-weight: 400;
+    color: #7A7E88;
+}
+
+.cardOtherDetails div {
+    min-width: 40%;
+}
+
+.cardOtherDetails p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #454657;
+}
+
+.cardOtherDetails .updatedDate {
+    font-size: 11px;
+    font-weight: 400;
+    color: #64748B;
+}
+
+/* best cc section end */
+
+/* Total Enquires  section start */
+.inqurySuggestion {
+    background-color: #EAF7FF;
+    padding: 20px 15px;
+}
+
+.inqurySuggestion img {
+    height: fit-content;
+    max-width: 50px;
+    margin-right: 12px;
+}
+
+.inqurySuggestion h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #27364B;
+    margin: 0;
+}
+
+.inqurySuggestion p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #1E2A3B;
+    margin: 0;
+}
+
+.enquriesBottomSec {
+    border: 1px solid #CBD4E1;
+    background-color: #fff;
+    padding: 15px 15px 0px 15px;
+    border-radius: 2px;
+}
+
+.enquriesBottomSec span {
+    font-size: 10px;
+    font-weight: 400;
+    color: #7A7E88;
+}
+
+.enquriesBottomSec p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #454657;
+    margin: 0;
+}
+
+/* Total Enquires  section start */
+
+.allOffersWrapper {
+    display: none;
+}
+
+.allOffersWrapper.active {
+    display: block;
+}
+
+.myCards>h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #27364B;
+}
+
+@media (max-width: 991.98px) {
+    main {
+        position: relative;
+        margin-top: 70px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .topPara {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .tabBtnsWrapper {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .tabBtns {
+        min-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .content {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .cardSpending {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cardSpending li {
+        align-items: flex-start;
+    }
+
+    .cardSpending li span {
+        margin-top: 4px;
+    }
+
+    .myCards {
+        padding: 15px;
+    }
+
+    .tipsImageWrapper {
+        display: none;
+    }
+
+    .tips img {
+        display: none;
+    }
+
+    .tips .content h2 {
+        font-size: 14px;
+    }
+
+    .tips .content p {
+        font-size: 12px;
+    }
+
+    .content {
+        width: 100%;
+        padding: 15px;
+        border: none;
+    }
+
+    .tips img.mobileTipsImg {
+        display: inline-block;
+        width: 30px;
+        margin-right: 5px;
+    }
+
+    .highcharts-figure4,
+    .highcharts-figure3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bankAccountCountWrapper {
+        padding: 15px;
+    }
+
+    .cardTopSec p {
+        font-size: 10px;
+    }
+    .inqurySuggestion img{
+        max-width: 30px;
+    }
+}

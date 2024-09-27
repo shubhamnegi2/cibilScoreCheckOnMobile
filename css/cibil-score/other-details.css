@@ -1,0 +1,205 @@
+* {
+    font-family: Inter;
+}
+
+.has-error .help-block {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    color: red;
+}
+
+#other-details-form .form-group label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #27364B;
+    margin-bottom: 5px;
+}
+
+#other-details-form .form-group.consent-box label {
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.btns button {
+    background-color: #39B549;
+    box-shadow: 0px 1px 6px 0px #00000040;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.spinner-border {
+    width: 1rem;
+    height: 1rem;
+}
+
+.spinnerBtn {
+    display: none;
+}
+
+#other-details-form {
+    background-color: #F2F0EB;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:991px) {
+    #other-details-form {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #other-details-form {
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+}
+
+/* =============    popup form css start    ======================= */
+.popupFormWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 99999;
+    top: 0px;
+    left: 0px;
+}
+
+.popupForm {
+    position: relative;
+    border: 1px solid #787373;
+    background: #FFF;
+    margin: auto;
+    box-shadow: 0px 4px 64px 0px #000000E5;
+    border-radius: 4px;
+    max-width: 500px;
+}
+
+.topBar {
+    padding: 20px;
+}
+
+#popup-Form {
+    padding: 0px 20px 40px 20px;
+}
+
+.popupForm img {
+    max-width: 100%;
+}
+
+.checkbox-container {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: top;
+}
+
+.checkbox-container input[type=checkbox]+i {
+    margin-top: 2px;
+}
+
+.topBar h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0F1A2A;
+}
+
+.topBar p {
+    font-size: 13px;
+    color: #475569;
+}
+
+label.consent {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+.popupBtns button {
+    background-color: #39B549;
+    box-shadow: 0px 1px 6px 0px #00000040;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 0px;
+    width: 100%;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+
+.errorMsg {
+    display: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: red;
+    text-align: center;
+}
+
+.PopupSpinnerBtn {
+    display: none;
+}
+
+@media screen and (max-width:991px) {
+    #popup-Form {
+        padding: 0px 20px 40px 40px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #popup-Form {
+        padding: 0px 20px 20px 20px;
+    }
+
+    .topBar h2 {
+        font-size: 18px;
+    }
+
+    .topBar p,
+    label.consent {
+        font-size: 12px;
+    }
+
+    #popup-Form input[type=checkbox]+i:before {
+        width: 15px;
+        height: 15px;
+    }
+
+    #popup-Form input[type=checkbox]:checked+i:after {
+        content: "";
+        width: 4px;
+        height: 9px;
+        border: solid #fff;
+        border-width: 0 2px 2px 0;
+        position: absolute;
+        left: 5px;
+        top: 2px;
+    }
+}
