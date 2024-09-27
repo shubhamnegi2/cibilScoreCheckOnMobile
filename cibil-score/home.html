@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="../css/common/bootstrap-v5.0.2.min.css">
+    <link rel="stylesheet" href="../css/common/font-Inter.min.css">
+    <link rel="stylesheet" href="../css/common/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/common/new-common.css">
+    <link rel="stylesheet" href="../css/common/new-form.css">
+    <link rel="stylesheet" href="../css/common/new-layout.css">
+    <link rel="stylesheet" href="../css/cibil-score/header.css">
+    <link rel="stylesheet" href="../css/cibil-score/home.css">
+    <style>
+        .down_arrow {
+            width: 10px;
+            height: 7px;
+            background: url(../img/cibil-score/nav-down-arrow.svg) 0 0;
+            background-repeat: no-repeat;
+            display: inline-block
+        }
+    </style>
+</head>
+
+<body>
+    <header id="wish-nav">
+        <div class="container">
+            <!-- <div class="top-section" id="top-nav">
+                <div><a href="tel:+91-9873054225">+91-9873054225</a> <span>|</span> <a
+                        href="https://www.wishfin.com/blog/" target="_blank">Blog</a></div>
+            </div> -->
+            <div class="bottom-section">
+                <div class="top-nav"><a href="https://www.wishfin.com"><img alt="Wishfin Logo" height="36"
+                            src="../img/cibil-score//wishfin-logo.svg" width="85"></a>
+                    <nav>
+                        <ul class="nav-list">
+                            <li><a href="https://www.wishfin.com/home-loan" class="nav-list-item">Home Loan</a></li>
+                            <li><a href="https://www.wishfin.com/cibil-score"
+                                    class="nav-list-item special-nav-link"><span class="green-color mr-1">CIBIL
+                                        Score</span></a></li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Credit Cards <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items text-center">
+                                    <li><a href="https://www.wishfin.com/credit-cards">Credit Card Apply</a></li>
+                                    <li><a
+                                            href="https://www.wishfin.com/best-credit-cards/best-credit-cards-in-india-apply-online/">Best
+                                            Credit Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/axis/cc/direct/home?source=home">Axis Bank
+                                            Credit Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/sbi/cc/direct/home?source=home">SBI Bank Credit
+                                            Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/ibl/home?source=home">Indusind Bank Credit
+                                            Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/scb-cc/home?source=home">Standard Chartered
+                                            Bank Credit cards</a></li>
+                                    <li><a href="https://www.wishfin.com/yesbank-cc/home?source=home">Yes Bank Credit
+                                            Cards</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.wishfin.com/personal-loan" class="nav-list-item">Personal loan</a>
+                            </li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Wishes <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items">
+                                    <li><a href="https://www.wishfin.com/wish-travel">Travel</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-car">Car</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-child">Child’s Future</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-home">Dream Home</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Download App <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items">
+                                    <li><a href="https://play.google.com/store/apps/details?id=com.mywish.wishfin.view"
+                                            target="_blank">Google Play</a></li>
+                                    <li><a href="https://itunes.apple.com/us/app/wishfin/id1448228668?ls=1&amp;mt=8"
+                                            target="_blank">App Store</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.wishfin.com/register" class="nav-list-item">Login</a></li>
+                        </ul>
+                    </nav><a href="javascript:" class="hamburgermenu"><img alt="Wishfin Logo" height="24"
+                            src="https://www.wishfin.com/images/home-page/hamburger-icon.svg" width="24"></a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-nav-menu" id="mobileNav" style="display: none;">
+            <ul>
+                <li><a href="https://www.wishfin.com/home-loan" class="nav-list-item">Home Loan</a></li>
+                <li><a href="https://www.wishfin.com/cibil-score" class="nav-list-item"><span
+                            class="green-color mr-1">CIBIL Score</span></a></li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover"
+                        id="creditcards">Credit Cards <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items text-center">
+                        <li><a href="https://www.wishfin.com/credit-cards">Credit Card Apply</a></li>
+                        <li><a
+                                href="https://www.wishfin.com/best-credit-cards/best-credit-cards-in-india-apply-online/">Best
+                                Credit Cards</a></li>
+                        <li><a href="https://www.wishfin.com/axis/cc/direct/home?source=home">Axis Bank Credit Cards</a>
+                        </li>
+                        <li><a href="https://www.wishfin.com/sbi/cc/direct/home?source=home">SBI Bank Credit Cards</a>
+                        </li>
+                        <li><a href="https://www.wishfin.com/ibl/home?source=home">Indusind Bank Credit Cards</a></li>
+                        <li><a href="https://www.wishfin.com/scb-cc/home?source=home">Standard Chartered Bank Credit
+                                cards</a></li>
+                        <li><a href="https://www.wishfin.com/yesbank-cc/home?source=home">Yes Bank Credit Cards</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.wishfin.com/personal-loan" class="nav-list-item">Personal Loan</a></li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover" id="wishes">Wishes
+                        <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items">
+                        <li><a href="https://www.wishfin.com/wish-travel">Travel</a></li>
+                        <li><a href="https://www.wishfin.com/wish-car">Car</a></li>
+                        <li><a href="https://www.wishfin.com/wish-child">Child’s Future</a></li>
+                        <li><a href="https://www.wishfin.com/wish-home">Dream Home</a></li>
+                    </ul>
+                </li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover"
+                        id="wishapp">Download App <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items">
+                        <li><a href="https://play.google.com/store/apps/details?id=com.mywish.wishfin.view"
+                                target="_blank">Google Play</a></li>
+                        <li><a href="https://itunes.apple.com/us/app/wishfin/id1448228668?ls=1&amp;mt=8"
+                                target="_blank">App Store</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.wishfin.com/blog/" class="nav-list-item" target="_blank">Blog</a></li>
+                <li><a href="https://www.wishfin.com/register" class="nav-custom-btn">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero my-5">
+        <div class="mobileImageBanner d-md-none ">
+            <img src="../img/cibil-score/cibilImageMobile.png" alt="cibilImage">
+        </div>
+
+        <div class="container">
+            <div class="row flex-lg-row-reverse">
+                <div class="col-lg-6">
+                    <div class="heroBanner mt-4 mt-lg-0 d-none d-md-block">
+                        <img src="../img/cibil-score/cibilImage.png" alt="cibilImage">
+                    </div>
+                </div>
+                <div class="col-lg-6 gx-0 gx-sm-4">
+                    <div class="heroTop mt-sm-4 mt-lg-0">
+                        <form id="cibil-score-form">
+                            <h2>Get Instant Detailed <strong> CIBIL </strong> Score Report for Free</h2>
+                            <div class="form-group mt-4">
+                                <label for="fullName">Full Name (As per PAN Card) </label>
+                                <input autocomplete="off" type="text" id="fullName" name="fullName"
+                                    class="lnt-input form-control" minlength="4"
+                                    onkeypress="return CharsetKeyOnly(event);">
+                            </div>
+                            <div class="form-group position-relative">
+                                <label for="mobile">Mobile (As per Bank Records) </label>
+                                <input autocomplete="off" type="tel" pattern="[6789][0-9]{9}" id="mobile" name="mobile"
+                                    onkeypress="return numOnly(event)" class="lnt-input form-control" value=""
+                                    minlength="10" maxlength="10">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email (As per Bank Records) </label>
+                                <input autocomplete="off" type="text" id="email" name="email"
+                                    class="lnt-input form-control" minlength="4">
+                            </div>
+                            <div class="form-group consent-box ">
+                                <div class="checkbox-container d-flex">
+                                    <input autocomplete="off" type="checkbox" name="terms_condition"
+                                        id="terms_condition" class="checkbox height-10 noblank" value="1">
+                                    <i></i>
+                                    <label for="terms_condition" class="consent comment more ">
+                                        I agree to the <a target="_blank" href="https://www.wishfin.com/privacy-policy">
+                                            Privacy policy </a> and <a target="_blank"
+                                            href="https://www.wishfin.com/terms-and-conditions"> Terms and
+                                            Conditions.</a>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group btns ">
+                                <button class="submitBtn">SUBMIT</button>
+                                <button type="button" class="spinnerBtn">
+                                    <div class="spinner-border text-light" role="status"></div>
+                                    Please Wait...
+                                </button>
+                            </div>
+                            <p class="note">*We follow strict <strong> No SPAM, No Unwanted </strong> calls policy.</p>
+                        </form>
+                    </div>
+                    <div class="heroBottom d-sm-flex justify-content-between mt-4">
+                        <div>
+                            <img src="../img/cibil-score/heroIcon1.png" alt="heroIcon1">
+                            <p>Best Personalized <br> <strong> Loans </strong> and <strong> Credit Cards <br> Offers
+                                </strong> </p>
+                        </div>
+                        <div class="mt-4 mt-sm-0">
+                            <img src="../img/cibil-score/bulbIcon.png" alt="bulbIcon">
+                            <p>Build Credit History <br> from Day 1 with <br><strong> Personalized Tips </strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content mb-5">
+        <div class="container">
+            <h2 class="mt-4 ">What is a CIBIL Score?</h2>
+            <p>A Cibil Score is a three-digit number that denotes your credit report. The Cibil score starts from 300 to
+                900 and if you are closer to a Cibil score of 900 then it is considered a good score. On the other hand,
+                if your score is closer to 300 then it is a bad score and there are fewer chances to get any debt.
+                Therefore it is necessary to keep an eye on your Cibil Score by checking it regularly.</p>
+
+            <h2 class="mt-4 ">Difference Between a Credit Score and a CIBIL Score</h2>
+            <p>CIBIL score is a Credit Score generated by a credit rating agency called TransUnion. TransUnion CIBIL is
+                the gold standard of Credit Scores and the only one that counts while seeking finance. While there are
+                several Credit Bureaus that issue credit scores, CIBIL is the one that holds most weight with banks.
+                Now, a Credit Score is like your financial report card with a numerical representation of your credit
+                health. A CIBIL score can range from 300 to 900 in India and CIBIL score above 750 is considered good
+                for the approval of loans or credit cards. While evaluating any sort of credit application, the lender
+                checks your credit score and your credit history before going ahead with the application. <br>Therefore
+                you can not point out a better score because every agency has its parameters to calculate the credit
+                score and the Cibil TransUnion is one of them. Usually a Cibil Score of 750 and above is enough to get
+                quick approval for a loan or debt.</p>
+        </div>
+    </section>
+
+
+    <secion class="faq ">
+        <div class="container">
+            <h2 class="heading mb-4">Frequently Asked Questions (FAQs)</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How to Find the Exact CIBIL Score?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            You can find the exact CIBIL Score on Wishfin by providing your basic details. All you need
+                            is to enter your name, PAN, City, Income, Employment Status, Mobile Number, Email ID, and
+                            Date of Birth to find the exact CIBIL Score. If your score is 750 and above then you can
+                            easily apply for credit cards, personal loans, home loans, and other types of loans.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mt-4">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Difference Between a Credit Score and a CIBIL Score
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mt-4">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is the Full Form of CIBIL?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </secion>
+
+    <div class="bottomSpace my-5 py-5"></div>
+
+    <div class="otpPopup" id="otpModal">
+        <div class="otpWrapper ">
+            <div class="text-end">
+                <img class="" src="../img/cibil-score/cibilLogo.png" alt="otp icon">
+            </div>
+            <div class="text-center">
+                <h2>Verify your Mobile Number</h2>
+                <p>We have sent you an OTP on *******<span class="mobileNo"></span>215</p>
+                <span class="editMobileNumber">Edit your Mobile number</span>
+            </div>
+            <form id="otp-verification-form" class="digit-group position-relative" data-group-name="digits" method=""
+                enctype="multipart/form-data" novalidate="novalidate">
+                <div class="form-group text-center inputWrapper mt-5 mb-4">
+                    <input type="tel" class="digit __mr_20 text-center" id="digit-1" name="digit-1" data-next="digit-2"
+                        onkeypress="return numOnly(event)" maxlength="1">
+                    <input type="tel" class="digit __mr_20 text-center" id="digit-2" name="digit-2" data-next="digit-3"
+                        data-previous="digit-1" onkeypress="return numOnly(event)" maxlength="1">
+                    <input type="tel" class="digit __mr_20 text-center" id="digit-3" name="digit-3" data-next="digit-4"
+                        data-previous="digit-2" onkeypress="return numOnly(event)" maxlength="1">
+                    <input type="tel" class="digit text-center" id="digit-4" name="digit-4" data-previous="digit-3"
+                        onkeypress="return numOnly(event)" maxlength="1">
+                    <input id="otp" type="hidden" name="otp" minlength="4" maxlength="4">
+                    <input type="hidden" name="otp_mobile_number" id="otp_mobile_number" value="">
+                    <p class="help-block otp_error_box mt-3"></p>
+                    <p class="success-message mt-3" style="color: green; font-size: 14px;"></p>
+                </div>
+                <div class="btnFroup mt-3">
+                    <p class="mb-3 resend-btn text-center">
+                        <span id="otp_counter"></span>
+                        <span id="resend_otp" role="button" ><strong class="__theme_color">Resend
+                                OTP</strong></span>
+                    </p>
+                    <div class="text-center">
+                        <button class="otpSubmitBtn">Verify</button>
+                        <button type="button" class="otpSpinnerBtn">
+                            <div class="spinner-border text-light" role="status"></div>
+                            Please Wait...
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="../js//common/jquery-3.6.0.js"></script>
+    <script src="../js//common/jquery-ui-v1.13.0.js"></script>
+    <script src="../js//common/jquery.validate.min.js"></script>
+    <script src="../js//common/bootstrap-v5.0.2.min.js"></script>
+    <script src="../js//common/form.js"></script>
+    <script src="../js//common/new-layout.js"></script>
+    <script src="../js//cibil-score/home.js"></script>
+</body>
+
+</html>

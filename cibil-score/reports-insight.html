@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="../css/common/bootstrap-v5.0.2.min.css">
+    <link rel="stylesheet" href="../css/common/font-Inter.min.css">
+    <link rel="stylesheet" href="../css/common/new-common.css">
+    <link rel="stylesheet" href="../css/common/new-form.css">
+    <link rel="stylesheet" href="../css/common/new-layout.css">
+    <link rel="stylesheet" href="../css/cibil-score/header.css">
+    <link rel="stylesheet" href="../css/cibil-score/dashboard-header.css">
+    <link rel="stylesheet" href="../css/cibil-score/dashboard-common.css">
+    <link rel="stylesheet" href="../css/cibil-score/reports-insight.css">
+    <style>
+        .down_arrow {
+            width: 10px;
+            height: 7px;
+            background: url(../img/cibil-score/nav-down-arrow.svg) 0 0;
+            background-repeat: no-repeat;
+            display: inline-block
+        }
+    </style>
+</head>
+
+<body>
+    <header id="wish-nav">
+        <div class="container">
+            <!-- <div class="top-section" id="top-nav">
+                <div><a href="tel:+91-9873054225">+91-9873054225</a> <span>|</span> <a
+                        href="https://www.wishfin.com/blog/" target="_blank">Blog</a></div>
+            </div> -->
+            <div class="bottom-section">
+                <div class="top-nav"><a href="https://www.wishfin.com"><img alt="Wishfin Logo" height="36"
+                            src="../img/cibil-score//wishfin-logo.svg" width="85"></a>
+                    <nav>
+                        <ul class="nav-list">
+                            <li><a href="https://www.wishfin.com/home-loan" class="nav-list-item">Home Loan</a></li>
+                            <li><a href="https://www.wishfin.com/cibil-score"
+                                    class="nav-list-item special-nav-link"><span class="green-color mr-1">CIBIL
+                                        Score</span></a></li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Credit Cards <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items text-center">
+                                    <li><a href="https://www.wishfin.com/credit-cards">Credit Card Apply</a></li>
+                                    <li><a
+                                            href="https://www.wishfin.com/best-credit-cards/best-credit-cards-in-india-apply-online/">Best
+                                            Credit Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/axis/cc/direct/home?source=home">Axis Bank
+                                            Credit Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/sbi/cc/direct/home?source=home">SBI Bank Credit
+                                            Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/ibl/home?source=home">Indusind Bank Credit
+                                            Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/scb-cc/home?source=home">Standard Chartered
+                                            Bank Credit cards</a></li>
+                                    <li><a href="https://www.wishfin.com/yesbank-cc/home?source=home">Yes Bank Credit
+                                            Cards</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.wishfin.com/personal-loan" class="nav-list-item">Personal loan</a>
+                            </li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Wishes <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items">
+                                    <li><a href="https://www.wishfin.com/wish-travel">Travel</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-car">Car</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-child">Child’s Future</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-home">Dream Home</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Download App <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items">
+                                    <li><a href="https://play.google.com/store/apps/details?id=com.mywish.wishfin.view"
+                                            target="_blank">Google Play</a></li>
+                                    <li><a href="https://itunes.apple.com/us/app/wishfin/id1448228668?ls=1&amp;mt=8"
+                                            target="_blank">App Store</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.wishfin.com/register" class="nav-list-item">Login</a></li>
+                        </ul>
+                    </nav>
+                    <a href="javascript:" class="cibilHamburgermenu"><img alt="Wishfin Logo" height="24"
+                            src="https://www.wishfin.com/images/home-page/hamburger-icon.svg" width="24"></a>
+                    <a href="javascript:" class="hamburgermenu"><img alt="Wishfin Logo" height="24"
+                            src="https://www.wishfin.com/images/home-page/hamburger-icon.svg" width="24"></a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-nav-menu" id="mobileNav" style="display: none;">
+            <ul>
+                <li><a href="https://www.wishfin.com/home-loan" class="nav-list-item">Home Loan</a></li>
+                <li><a href="https://www.wishfin.com/cibil-score" class="nav-list-item"><span
+                            class="green-color mr-1">CIBIL Score</span></a></li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover"
+                        id="creditcards">Credit Cards <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items text-center">
+                        <li><a href="https://www.wishfin.com/credit-cards">Credit Card Apply</a></li>
+                        <li><a
+                                href="https://www.wishfin.com/best-credit-cards/best-credit-cards-in-india-apply-online/">Best
+                                Credit Cards</a></li>
+                        <li><a href="https://www.wishfin.com/axis/cc/direct/home?source=home">Axis Bank Credit Cards</a>
+                        </li>
+                        <li><a href="https://www.wishfin.com/sbi/cc/direct/home?source=home">SBI Bank Credit Cards</a>
+                        </li>
+                        <li><a href="https://www.wishfin.com/ibl/home?source=home">Indusind Bank Credit Cards</a></li>
+                        <li><a href="https://www.wishfin.com/scb-cc/home?source=home">Standard Chartered Bank Credit
+                                cards</a></li>
+                        <li><a href="https://www.wishfin.com/yesbank-cc/home?source=home">Yes Bank Credit Cards</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.wishfin.com/personal-loan" class="nav-list-item">Personal Loan</a></li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover" id="wishes">Wishes
+                        <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items">
+                        <li><a href="https://www.wishfin.com/wish-travel">Travel</a></li>
+                        <li><a href="https://www.wishfin.com/wish-car">Car</a></li>
+                        <li><a href="https://www.wishfin.com/wish-child">Child’s Future</a></li>
+                        <li><a href="https://www.wishfin.com/wish-home">Dream Home</a></li>
+                    </ul>
+                </li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover"
+                        id="wishapp">Download App <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items">
+                        <li><a href="https://play.google.com/store/apps/details?id=com.mywish.wishfin.view"
+                                target="_blank">Google Play</a></li>
+                        <li><a href="https://itunes.apple.com/us/app/wishfin/id1448228668?ls=1&amp;mt=8"
+                                target="_blank">App Store</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.wishfin.com/blog/" class="nav-list-item" target="_blank">Blog</a></li>
+                <li><a href="https://www.wishfin.com/register" class="nav-custom-btn">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="my-lg-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <aside>
+                        <ul>
+                            <li><a href=""><img src="../img/cibil-score/dashboard.png"
+                                        alt="asideIcons">Dashboard</a></li>
+                            <li><a class="active" href=""><img src="../img/cibil-score/reportInsights.png"
+                                        alt="asideIcons">Reports Insight</a></li>
+                            <li><a href="best-offers.html"><img src="../img/cibil-score/discount-shape.png"
+                                        alt="asideIcons">Best Offers</a></li>
+                            <li><a href=""><img src="../img/cibil-score/star_border.png"
+                                        alt="asideIcons">Leaderboard</a></li>
+                            <li><a href=""><img src="../img/cibil-score/perm_identity.png"
+                                        alt="asideIcons">My
+                                    Account</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-9 ">
+                    <div class="rightMain">
+                        <h1><img class="cursor-pointer backBtn" onclick="history.back()"
+                                src="../img/cibil-score/arrow-left.png" alt=""> Reports Insight</h1>
+                        <p class="topPara">Detailed analysis and insights based on various reports</p>
+                        <div class="tabBtnsWrapper">
+                            <div class="tabBtns">
+                                <button data-button-key="1" class="activeTab">Payment History</button>
+                                <button data-button-key="2">Best Credit Cards</button>
+                                <button data-button-key="3">Total Enquires</button>
+                                <button data-button-key="4">Total Accounts</button>
+                            </div>
+                        </div>
+                        <div class="tabWrapper mt-4">
+                            <div data-content-key="1" class=" active allOffersWrapper">
+                                <div class="myCards PaymentHistory">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-md-4">
+                                            <select name="loans" id="loans">
+                                                <option selected value="LIC Housing Loan">LIC Housing Loan</option>
+                                                <option value="sbi loan">sbi loan</option>
+                                                <option value="hdfc loan">hdfc loan</option>
+                                            </select>
+                                            <div
+                                                class="text-end my-md-4 mt-3 d-flex justify-content-between ccBasicDetails">
+                                                <div class="text-start">
+                                                    <span>Total Loan</span>
+                                                    <p>₹20,00,000</p>
+                                                </div>
+                                                <div class="text-start">
+                                                    <span>Tenure</span>
+                                                    <p>286 Months</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="d-sm-flex justify-content-md-around justify-content-between">
+                                                <figure class="highcharts-figure3 myAllChartWrapper m-0">
+                                                    <div id="loanDetialsChart"></div>
+                                                </figure>
+                                                <ul class="cardSpending  mt-sm-5 cardChartShow">
+                                                    <li class="mb-sm-4"><span></span>
+                                                        <div>Paid Loan <br>
+                                                            <strong>₹15,38,590</strong>
+                                                        </div>
+                                                    </li>
+                                                    <li class="mb-sm-2"><span></span>
+                                                        <div>Pending Loan
+                                                            <br><strong>₹4,38,590</strong>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 mt-4 mt-sm-0">
+                                            <p class="d-flex justify-content-between align-items-center phPara">Payment
+                                                History <span>On-time
+                                                    Payment
+                                                    <strong> 27
+                                                    </strong>/28</span></p>
+                                            <div class="paymnetHistoryTable">
+                                                <div class="row flex-wrap paymentYearWrapper">
+                                                    <div class="col-sm-2 col-4"><span data-payment-key="1"
+                                                            class="paymentYear active">2024</span>
+                                                    </div>
+                                                    <div class="col-sm-2 col-4"><span data-payment-key="2"
+                                                            class="paymentYear">2023</span></div>
+                                                    <div class="col-sm-2 col-4"><span data-payment-key="3"
+                                                            class="paymentYear">2022</span></div>
+                                                </div>
+                                                <div data-payment-result="1" class=" paymentMonthWrapper active">
+                                                    <div class="row flex-wrap">
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Jan <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Feb <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Mar <br>
+                                                                <img src="../img/cibil-score/clock.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Apr <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">May <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Jun <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Jul <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Aug <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div data-payment-result="2" class=" paymentMonthWrapper">
+                                                    <div class="row flex-wrap">
+
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Jan <br>
+                                                                <img src="../img/cibil-score/clock.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Feb <br>
+                                                                <img src="../img/cibil-score/clock.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Mar <br>
+                                                                <img src="../img/cibil-score/clock.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Apr <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">May <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Jun <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Jul <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Aug <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                                <div data-payment-result="3" class="paymentMonthWrapper">
+                                                    <div class="row flex-wrap">
+
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Jan <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Feb <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Mar <br>
+                                                                <img src="../img/cibil-score/clock.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Apr <br>
+                                                                <img src="../img/cibil-score/clock.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">May <br>
+                                                                <img src="../img/cibil-score/clock.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Jun <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Jul <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-sm-2 col-3 mb-3">
+                                                            <div class="paymentMonth">Aug <br>
+                                                                <img src="../img/cibil-score/tick-circle.png"
+                                                                    alt="tick-circle">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="paymentStatus mt-3 d-flex justify-content-end">
+                                                <ul>
+                                                    <li><img src="../img/cibil-score/tick-circle.png"
+                                                            alt="tick-circle">On-time</li>
+                                                    <li><img src="../img/cibil-score/clock.png"
+                                                            alt="tick-circle">Delayed</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-key="2" class="   allOffersWrapper">
+                                <div class="myCards CreditCardUtilization">
+                                    <h2>You have utilized 20% of you total Credit Cards limit</h2>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-md-4">
+
+                                            <div
+                                                class="text-end my-md-4 mt-3 d-flex justify-content-between ccBasicDetails">
+                                                <div class="text-start">
+                                                    <span>Total Spends</span>
+                                                    <p>₹20,00,000</p>
+                                                </div>
+                                                <div class="text-start">
+                                                    <span>Total Credit Limits</span>
+                                                    <p>₹286 lakhs</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="d-sm-flex justify-content-md-around justify-content-between">
+                                                <figure class="highcharts-figure4 myAllChartWrapper m-0">
+                                                    <div id="ccDetialsChart"></div>
+                                                </figure>
+                                                <ul class="cardSpending  mt-sm-5 cardChartShow">
+                                                    <li class="mb-sm-4"><span></span>
+                                                        <div>Used Limit <br>
+                                                            <strong>20%</strong>
+                                                        </div>
+                                                    </li>
+                                                    <li class="mb-sm-2"><span></span>
+                                                        <div>Unused Limit
+                                                            <br><strong>80%</strong>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="bankAccountCountWrapper mt-4">
+                                    <div class="bankAccountCount">
+                                        <h2>Your Accounts</h2>
+                                        <div class="row mt-4">
+                                            <div class="col-md-6 mb-4">
+                                                <div class="bankAccountCard">
+                                                    <div
+                                                        class="d-flex pb-1 justify-content-between align-items-sm-center align-items-start cardTopSec">
+                                                        <div class="d-flex justify-content-between align-items-end">
+                                                            <img src="../img/cibil-score/HDFCLogo.png"
+                                                                alt="bankLogoIcon">
+                                                            <div>
+                                                                <h3>HDFC Bank</h3>
+                                                                <span class="ccNumber">Credit card xxxxxxx9495</span>
+                                                            </div>
+                                                        </div>
+                                                        <p><span></span>Active</p>
+                                                    </div>
+                                                    <div class="cardOtherDetails my-3">
+                                                        <div class="d-flex">
+                                                            <div class="text-start">
+                                                                <span>Total Spends</span>
+                                                                <p>₹20,00,000</p>
+                                                            </div>
+                                                            <div class="text-start">
+                                                                <span>Total Credit Limits</span>
+                                                                <p>₹286 lakhs</p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="updatedDate">Latest Bank Update : 30 Jun, 2024</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 mb-4">
+                                                <div class="bankAccountCard">
+                                                    <div
+                                                        class="d-flex pb-1 justify-content-between align-items-sm-center align-items-start cardTopSec">
+                                                        <div class="d-flex justify-content-between align-items-end">
+                                                            <img src="../img/cibil-score/sbiIcon.png"
+                                                                alt="bankLogoIcon">
+                                                            <div>
+                                                                <h3>SBI Bank</h3>
+                                                                <span class="ccNumber">Credit card xxxxxxx9495</span>
+                                                            </div>
+                                                        </div>
+                                                        <p><span></span>Closed</p>
+                                                    </div>
+                                                    <div class="cardOtherDetails my-3">
+                                                        <div class="d-flex">
+                                                            <div class="text-start">
+                                                                <span>Total Spends</span>
+                                                                <p>₹20,00,000</p>
+                                                            </div>
+                                                            <div class="text-start">
+                                                                <span>Total Credit Limits</span>
+                                                                <p>₹286 lakhs</p>
+                                                            </div>
+                                                        </div>
+                                                        <p class="updatedDate">Latest Bank Update : 30 Jun, 2024</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-key="3" class="   allOffersWrapper">
+                                <div class="myCards TotalEnquires">
+                                    <h2>You have utilized 20% of you total Credit Cards limit</h2>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div
+                                                class="text-end my-md-4 mt-3 d-flex justify-content-between ccBasicDetails">
+                                                <div class="text-start">
+                                                    <span>Enquiry for Loan</span>
+                                                    <p>2</p>
+                                                </div>
+                                                <div class="text-start">
+                                                    <span>Enquiry for Credit Card</span>
+                                                    <p>1</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="inqurySuggestion">
+                                                <div class="d-flex ">
+                                                    <img src="../img/cibil-score/searchIcon.png"
+                                                        alt="searchIcon">
+                                                    <div>
+                                                        <h3>Each Credit Enquiry by a lender can impact your CIBIL score.
+                                                        </h3>
+                                                        <p> Multiple enquiries in a short time may signal higher credit
+                                                            risk, so apply wisely!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="bankAccountCountWrapper mt-4">
+                                    <div class="bankAccountCount">
+                                        <h2>Enquiry Details</h2>
+                                        <div class="enquriesBottomSecWrapper">
+                                            <div class="enquriesBottomSec mb-4">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Account</span>
+                                                        <p>ICICI Bank</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Date of Enquiry</span>
+                                                        <p>5/ 01/ 2024</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Purpose</span>
+                                                        <p>Credit Card</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Amount</span>
+                                                        <p>NA</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="enquriesBottomSec mb-4">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Account</span>
+                                                        <p>ICICI Bank</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Date of Enquiry</span>
+                                                        <p>5/ 01/ 2024</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Purpose</span>
+                                                        <p>Personal loan</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Amount</span>
+                                                        <p>₹1,00,000</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-content-key="4" class="   allOffersWrapper">
+                                <div class="myCards TotalEnquires">
+                                    <h2>You have 2 Account</h2>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div
+                                                class="text-end my-md-4 mt-3 d-flex justify-content-between ccBasicDetails">
+                                                <div class="text-start">
+                                                    <span>Active Account</span>
+                                                    <p>2</p>
+                                                </div>
+                                                <div class="text-start">
+                                                    <span>Closed Account</span>
+                                                    <p>1</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="inqurySuggestion">
+                                                <div class="d-flex ">
+                                                    <img src="../img/cibil-score/searchIcon.png"
+                                                        alt="searchIcon">
+                                                    <div>
+                                                        <h3>The total number of your credit accounts, including loans and credit cards, affects your CIBIL score.</h3>
+                                                        <p>A balanced mix of credit types can help maintain a healthy score.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="bankAccountCountWrapper mt-4">
+                                    <div class="bankAccountCount">
+                                        <h2>Accounts Details</h2>
+                                        <div class="enquriesBottomSecWrapper">
+                                            <div class="enquriesBottomSec mb-4">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Member Name</span>
+                                                        <p>LIC Housing </p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Account</span>
+                                                        <p>xxxxx-xx123</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Loan Amount</span>
+                                                        <p>₹ 20,00,000</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Status</span>
+                                                        <p>Active </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="enquriesBottomSec mb-4">
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Member Name</span>
+                                                        <p>Union Bank </p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Account</span>
+                                                        <p>xxxxx-xx123</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Loan Amount</span>
+                                                        <p>₹ 20,00,000</p>
+                                                    </div>
+                                                    <div class="col-lg-3 col-6 mb-4">
+                                                        <span>Status</span>
+                                                        <p>Active </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 my-5">
+                        <div class="PersonalizedTips">
+                            <h3 class="mb-4">Personalized Tips</h3>
+                            <div class="tips">
+                                <div class="tipsImageWrapper">
+                                    <img src="../img/cibil-score/tips1.png" alt="tips">
+                                </div>
+                                <div class="content">
+                                    <h2><img class="mobileTipsImg" src="../img/cibil-score/tips1.png"
+                                            alt="tips"> If 0 Instances of 90+ Days Late</h2>
+                                    <div class="d-flex"><img src="../img/cibil-score/bulbIconSmall.png"
+                                            alt="icon">
+                                        <p><strong>Excellent work! </strong> Continue making on-time payments to
+                                            maintain
+                                            your strong credit score.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tips">
+                                <div class="tipsImageWrapper">
+                                    <img src="../img/cibil-score/tips2.png" alt="tips">
+                                </div>
+                                <div class="content">
+                                    <h2><img class="mobileTipsImg" src="../img/cibil-score/tips2.png"
+                                            alt="tips">1-2 Instances of 90+ Days Late</h2>
+                                    <div class="d-flex"><img src="../img/cibil-score/bulbIconSmall.png"
+                                            alt="icon">
+                                        <p><strong>Good job</strong> reducing late payments. Focus on paying all bills
+                                            on time to prevent future negative impacts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tips">
+                                <div class="tipsImageWrapper">
+                                    <img src="../img/cibil-score/tips3.png" alt="tips">
+                                </div>
+                                <div class="content">
+                                    <h2><img class="mobileTipsImg" src="../img/cibil-score/tips3.png"
+                                            alt="tips">1-2 Instances of 90+ Days Late</h2>
+                                    <div class="d-flex"><img src="../img/cibil-score/bulbIconSmall.png"
+                                            alt="icon">
+                                        <p><strong></strong> You’ve had some late payments, but it's never too late to
+                                            improve. Prioritize on-time payments moving forward.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </main>
+
+    <script src="../js//common/jquery-3.6.0.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="../js//cibil-score/dashboard-common.js"></script>
+    <script src="../js//cibil-score/reports-insight.js"></script>
+</body>
+
+</html>

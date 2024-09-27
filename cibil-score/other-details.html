@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="../css/common/bootstrap-v5.0.2.min.css">
+    <link rel="stylesheet" href="../css/common/font-Inter.min.css">
+    <link rel="stylesheet" href="../css/common/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/common/new-common.css">
+    <link rel="stylesheet" href="../css/common/new-form.css">
+    <link rel="stylesheet" href="../css/common/new-layout.css">
+    <link rel="stylesheet" href="../css/cibil-score/header.css">
+    <link rel="stylesheet" href="../css/cibil-score/other-details.css">
+    <style>
+        .down_arrow {
+            width: 10px;
+            height: 7px;
+            background: url(../img/cibil-score/nav-down-arrow.svg) 0 0;
+            background-repeat: no-repeat;
+            display: inline-block
+        }
+    </style>
+</head>
+
+<body>
+    <header id="wish-nav">
+        <div class="container">
+            <!-- <div class="top-section" id="top-nav">
+                <div><a href="tel:+91-9873054225">+91-9873054225</a> <span>|</span> <a
+                        href="https://www.wishfin.com/blog/" target="_blank">Blog</a></div>
+            </div> -->
+            <div class="bottom-section">
+                <div class="top-nav"><a href="https://www.wishfin.com"><img alt="Wishfin Logo" height="36"
+                            src="../img/cibil-score//wishfin-logo.svg" width="85"></a>
+                    <nav>
+                        <ul class="nav-list">
+                            <li><a href="https://www.wishfin.com/home-loan" class="nav-list-item">Home Loan</a></li>
+                            <li><a href="https://www.wishfin.com/cibil-score"
+                                    class="nav-list-item special-nav-link"><span class="green-color mr-1">CIBIL
+                                        Score</span></a></li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Credit Cards <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items text-center">
+                                    <li><a href="https://www.wishfin.com/credit-cards">Credit Card Apply</a></li>
+                                    <li><a
+                                            href="https://www.wishfin.com/best-credit-cards/best-credit-cards-in-india-apply-online/">Best
+                                            Credit Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/axis/cc/direct/home?source=home">Axis Bank
+                                            Credit Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/sbi/cc/direct/home?source=home">SBI Bank Credit
+                                            Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/ibl/home?source=home">Indusind Bank Credit
+                                            Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/scb-cc/home?source=home">Standard Chartered
+                                            Bank Credit cards</a></li>
+                                    <li><a href="https://www.wishfin.com/yesbank-cc/home?source=home">Yes Bank Credit
+                                            Cards</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.wishfin.com/personal-loan" class="nav-list-item">Personal loan</a>
+                            </li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Wishes <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items">
+                                    <li><a href="https://www.wishfin.com/wish-travel">Travel</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-car">Car</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-child">Child’s Future</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-home">Dream Home</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Download App <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items">
+                                    <li><a href="https://play.google.com/store/apps/details?id=com.mywish.wishfin.view"
+                                            target="_blank">Google Play</a></li>
+                                    <li><a href="https://itunes.apple.com/us/app/wishfin/id1448228668?ls=1&amp;mt=8"
+                                            target="_blank">App Store</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.wishfin.com/register" class="nav-list-item">Login</a></li>
+                        </ul>
+                    </nav><a href="javascript:" class="hamburgermenu"><img alt="Wishfin Logo" height="24"
+                            src="https://www.wishfin.com/images/home-page/hamburger-icon.svg" width="24"></a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-nav-menu" id="mobileNav" style="display: none;">
+            <ul>
+                <li><a href="https://www.wishfin.com/home-loan" class="nav-list-item">Home Loan</a></li>
+                <li><a href="https://www.wishfin.com/cibil-score" class="nav-list-item"><span
+                            class="green-color mr-1">CIBIL Score</span></a></li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover"
+                        id="creditcards">Credit Cards <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items text-center">
+                        <li><a href="https://www.wishfin.com/credit-cards">Credit Card Apply</a></li>
+                        <li><a
+                                href="https://www.wishfin.com/best-credit-cards/best-credit-cards-in-india-apply-online/">Best
+                                Credit Cards</a></li>
+                        <li><a href="https://www.wishfin.com/axis/cc/direct/home?source=home">Axis Bank Credit Cards</a>
+                        </li>
+                        <li><a href="https://www.wishfin.com/sbi/cc/direct/home?source=home">SBI Bank Credit Cards</a>
+                        </li>
+                        <li><a href="https://www.wishfin.com/ibl/home?source=home">Indusind Bank Credit Cards</a></li>
+                        <li><a href="https://www.wishfin.com/scb-cc/home?source=home">Standard Chartered Bank Credit
+                                cards</a></li>
+                        <li><a href="https://www.wishfin.com/yesbank-cc/home?source=home">Yes Bank Credit Cards</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.wishfin.com/personal-loan" class="nav-list-item">Personal Loan</a></li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover" id="wishes">Wishes
+                        <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items">
+                        <li><a href="https://www.wishfin.com/wish-travel">Travel</a></li>
+                        <li><a href="https://www.wishfin.com/wish-car">Car</a></li>
+                        <li><a href="https://www.wishfin.com/wish-child">Child’s Future</a></li>
+                        <li><a href="https://www.wishfin.com/wish-home">Dream Home</a></li>
+                    </ul>
+                </li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover"
+                        id="wishapp">Download App <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items">
+                        <li><a href="https://play.google.com/store/apps/details?id=com.mywish.wishfin.view"
+                                target="_blank">Google Play</a></li>
+                        <li><a href="https://itunes.apple.com/us/app/wishfin/id1448228668?ls=1&amp;mt=8"
+                                target="_blank">App Store</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.wishfin.com/blog/" class="nav-list-item" target="_blank">Blog</a></li>
+                <li><a href="https://www.wishfin.com/register" class="nav-custom-btn">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="form my-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 gx-0 gx-sm-4">
+                    <form id="other-details-form">
+                        <img class="backBtn p-1 cursor-pointer " onclick="history.back()"
+                            src="../img/cibil-score/arrow-left.png" alt="">
+                        <h1 class="my-4">Please help us with some more additional details</h1>
+                        <div class="formGroup form-group">
+                            <label for="PANcard">PAN card</label>
+                            <input name="PANcard" minlength="10" maxlength="10" type="text" id="PANcard"
+                                class="form-control required ">
+                        </div>
+                        <div class="form-group">
+                            <label>Date of Birth</label>
+                            <input name="dob" onkeypress="return numOnly(event)" readonly type="text"
+                                onCopy="return false" onDrop="return false" onPaste="return false" id="dob"
+                                class="form-control annual_tover required ">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <div class="radio-btns">
+                                <label class="radio-option">
+                                    <input type="radio" name="gender" selected id="gender" class="required" value="1"
+                                        aria-required="true">
+                                    <i></i>
+                                    <span>Male</span>
+                                </label>
+                                <label class="radio-option">
+                                    <input type="radio" name="gender" class="required" value="2" aria-required="true">
+                                    <i></i>
+                                    <span>Female</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group btns ">
+                            <button class="submitBtn">SUBMIT</button>
+                            <button type="button" class="spinnerBtn">
+                                <div class="spinner-border text-light" role="status"></div>
+                                Please Wait...
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="popupFormWrapper">
+        <div class="popupForm">
+            <img src="../img/cibil-score/goalsFrame.png" alt="goalsFrame">
+            <div class="text-center topBar">
+                <h2>Tell us about your Financial Goals,</h2>
+                <p>and we'll bring you <strong> Personalized Offers </strong> and advice that fit your needs perfectly!
+                </p>
+            </div>
+            <form id="popup-Form">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-7">
+                        <div class="checkbox-container">
+                            <input autocomplete="off" type="checkbox" name="PersonalLoan" id="PersonalLoan"
+                                class="checkbox height-10 noblank" value="1">
+                            <i></i>
+                            <label for="PersonalLoan" class="consent">
+                                Personal Loan
+                            </label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input autocomplete="off" type="checkbox" name="BusinessLoan" id="BusinessLoan"
+                                class="checkbox height-10 noblank" value="1">
+                            <i></i>
+                            <label for="BusinessLoan" class="consent">
+                                Business Loan
+                            </label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input autocomplete="off" type="checkbox" name="TransferPersonalLoan"
+                                id="TransferPersonalLoan" class="checkbox height-10 noblank" value="1">
+                            <i></i>
+                            <label for="TransferPersonalLoan" class="consent">
+                                Transfer Personal Loan
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-5">
+                        <div class="checkbox-container">
+                            <input autocomplete="off" type="checkbox" name="CreditCard" id="CreditCard"
+                                class="checkbox height-10 noblank" value="1">
+                            <i></i>
+                            <label for="CreditCard" class="consent">
+                                Credit Card
+                            </label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input autocomplete="off" type="checkbox" name="MicroLoan" id="MicroLoan"
+                                class="checkbox height-10 noblank" value="1">
+                            <i></i>
+                            <label for="MicroLoan" class="consent">
+                                Micro Loan
+                            </label>
+                        </div>
+                        <div class="checkbox-container">
+                            <input autocomplete="off" type="checkbox" name="HomeLoan" id="HomeLoan"
+                                class="checkbox height-10 noblank" value="1">
+                            <i></i>
+                            <label for="HomeLoan" class="consent">
+                                Home Loan
+                            </label>
+                        </div>
+                    </div>
+                    <p class="errorMsg">Please Select At Least One Option</p>
+                    <div class="col-lg-8">
+                        <div class="form-group popupBtns mt-2">
+                            <button class="PopupSubmitBtn">Get Offer!</button>
+                            <button type="button" class="PopupSpinnerBtn">
+                                <div class="spinner-border text-light" role="status"></div>
+                                Please Wait...
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js//common/jquery-3.6.0.js"></script>
+    <script src="../js//common/jquery-ui-v1.13.0.js"></script>
+    <script src="../js//common/jquery.validate.min.js"></script>
+    <script src="../js//common/bootstrap-v5.0.2.min.js"></script>
+    <script src="../js//common/form.js"></script>
+    <script src="../js//common/new-layout.js"></script>
+    <script src="../js//cibil-score/other-details.js"></script>
+</body>
+
+</html>
