@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="../css/common/bootstrap-v5.0.2.min.css">
+    <link rel="stylesheet" href="../css/common/font-Inter.min.css">
+    <link rel="stylesheet" href="../css/common/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/common/new-common.css">
+    <link rel="stylesheet" href="../css/common/new-form.css">
+    <link rel="stylesheet" href="../css/common/new-layout.css">
+    <link rel="stylesheet" href="../css/cibil-score/header.css">
+    <link rel="stylesheet" href="../css/cibil-score/dashboard-header.css">
+    <link rel="stylesheet" href="../css/cibil-score/dashboard-common.css">
+    <link rel="stylesheet" href="../css/cibil-score/dashboard.css">
+    <style>
+        .down_arrow {
+            width: 10px;
+            height: 7px;
+            background: url(../img/cibil-score/nav-down-arrow.svg) 0 0;
+            background-repeat: no-repeat;
+            display: inline-block
+        }
+    </style>
+</head>
+
+<body>
+    <header id="wish-nav">
+        <div class="container">
+            <!-- <div class="top-section" id="top-nav">
+                <div><a href="tel:+91-9873054225">+91-9873054225</a> <span>|</span> <a
+                        href="https://www.wishfin.com/blog/" target="_blank">Blog</a></div>
+            </div> -->
+            <div class="bottom-section">
+                <div class="top-nav"><a href="https://www.wishfin.com"><img alt="Wishfin Logo" height="36"
+                            src="../img/cibil-score//wishfin-logo.svg" width="85"></a>
+                    <nav>
+                        <ul class="nav-list">
+                            <li><a href="https://www.wishfin.com/home-loan" class="nav-list-item">Home Loan</a></li>
+                            <li><a href="https://www.wishfin.com/cibil-score"
+                                    class="nav-list-item special-nav-link"><span class="green-color mr-1">CIBIL
+                                        Score</span></a></li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Credit Cards <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items text-center">
+                                    <li><a href="https://www.wishfin.com/credit-cards">Credit Card Apply</a></li>
+                                    <li><a
+                                            href="https://www.wishfin.com/best-credit-cards/best-credit-cards-in-india-apply-online/">Best
+                                            Credit Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/axis/cc/direct/home?source=home">Axis Bank
+                                            Credit Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/sbi/cc/direct/home?source=home">SBI Bank Credit
+                                            Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/ibl/home?source=home">Indusind Bank Credit
+                                            Cards</a></li>
+                                    <li><a href="https://www.wishfin.com/scb-cc/home?source=home">Standard Chartered
+                                            Bank Credit cards</a></li>
+                                    <li><a href="https://www.wishfin.com/yesbank-cc/home?source=home">Yes Bank Credit
+                                            Cards</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.wishfin.com/personal-loan" class="nav-list-item">Personal loan</a>
+                            </li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Wishes <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items">
+                                    <li><a href="https://www.wishfin.com/wish-travel">Travel</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-car">Car</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-child">Child’s Future</a></li>
+                                    <li><a href="https://www.wishfin.com/wish-home">Dream Home</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:" class="nav-list-item dropdown-hover">Download App <span
+                                        class="down_arrow ms-1"></span></a>
+                                <ul class="dropdown-menu-items">
+                                    <li><a href="https://play.google.com/store/apps/details?id=com.mywish.wishfin.view"
+                                            target="_blank">Google Play</a></li>
+                                    <li><a href="https://itunes.apple.com/us/app/wishfin/id1448228668?ls=1&amp;mt=8"
+                                            target="_blank">App Store</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://www.wishfin.com/register" class="nav-list-item">Login</a></li>
+                        </ul>
+                    </nav>
+                    <a href="javascript:" class="cibilHamburgermenu"><img alt="Wishfin Logo" height="24"
+                            src="https://www.wishfin.com/images/home-page/hamburger-icon.svg" width="24"></a>
+                    <a href="javascript:" class="hamburgermenu"><img alt="Wishfin Logo" height="24"
+                            src="https://www.wishfin.com/images/home-page/hamburger-icon.svg" width="24"></a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-nav-menu" id="mobileNav" style="display: none;">
+            <ul>
+                <li><a href="https://www.wishfin.com/home-loan" class="nav-list-item">Home Loan</a></li>
+                <li><a href="https://www.wishfin.com/cibil-score" class="nav-list-item"><span
+                            class="green-color mr-1">CIBIL Score</span></a></li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover"
+                        id="creditcards">Credit Cards <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items text-center">
+                        <li><a href="https://www.wishfin.com/credit-cards">Credit Card Apply</a></li>
+                        <li><a
+                                href="https://www.wishfin.com/best-credit-cards/best-credit-cards-in-india-apply-online/">Best
+                                Credit Cards</a></li>
+                        <li><a href="https://www.wishfin.com/axis/cc/direct/home?source=home">Axis Bank Credit Cards</a>
+                        </li>
+                        <li><a href="https://www.wishfin.com/sbi/cc/direct/home?source=home">SBI Bank Credit Cards</a>
+                        </li>
+                        <li><a href="https://www.wishfin.com/ibl/home?source=home">Indusind Bank Credit Cards</a></li>
+                        <li><a href="https://www.wishfin.com/scb-cc/home?source=home">Standard Chartered Bank Credit
+                                cards</a></li>
+                        <li><a href="https://www.wishfin.com/yesbank-cc/home?source=home">Yes Bank Credit Cards</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.wishfin.com/personal-loan" class="nav-list-item">Personal Loan</a></li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover" id="wishes">Wishes
+                        <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items">
+                        <li><a href="https://www.wishfin.com/wish-travel">Travel</a></li>
+                        <li><a href="https://www.wishfin.com/wish-car">Car</a></li>
+                        <li><a href="https://www.wishfin.com/wish-child">Child’s Future</a></li>
+                        <li><a href="https://www.wishfin.com/wish-home">Dream Home</a></li>
+                    </ul>
+                </li>
+                <li class="mob-dropdown"><a href="javascript:" class="nav-list-item dropdown-hover"
+                        id="wishapp">Download App <span class="down_arrow ms-1"></span></a>
+                    <ul class="dropdown-menu-items">
+                        <li><a href="https://play.google.com/store/apps/details?id=com.mywish.wishfin.view"
+                                target="_blank">Google Play</a></li>
+                        <li><a href="https://itunes.apple.com/us/app/wishfin/id1448228668?ls=1&amp;mt=8"
+                                target="_blank">App Store</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.wishfin.com/blog/" class="nav-list-item" target="_blank">Blog</a></li>
+                <li><a href="https://www.wishfin.com/register" class="nav-custom-btn">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="my-lg-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <aside>
+                        <ul>
+                            <li><a class="active" href=""><img src="../img/cibil-score/dashboard.png"
+                                        alt="asideIcons">Dashboard</a></li>
+                            <li><a href=""><img src="../img/cibil-score/reportInsights.png"
+                                        alt="asideIcons">Reports Insight</a></li>
+                            <li><a href=""><img src="../img/cibil-score/discount-shape.png"
+                                        alt="asideIcons">Best Offers</a></li>
+                            <li><a href=""><img src="../img/cibil-score/star_border.png"
+                                        alt="asideIcons">Leaderboard</a></li>
+                            <li><a href=""><img src="../img/cibil-score/perm_identity.png"
+                                        alt="asideIcons">My
+                                    Account</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-9 gx-1 gx-sm-4">
+                    <div class="rightMain">
+                        <div class="container">
+                            <h1>Hi <strong> Vineet Garg,</strong></h1>
+                            <div class="topSec">
+                                <div class="row mt-sm-4 mt-3">
+                                    <div class="col-lg-5">
+                                        <div class="cibilScoreChartWrapper">
+                                            <div class="chartContainer mt-sm-3">
+                                                <div class="d-flex justify-content-between mx-3 mx-sm-0">
+                                                    <span>Here is your CIBIL Score</span>
+                                                    <img src="../img/cibil-score/cibilLogo.png"
+                                                        alt="cibilLogo">
+                                                </div>
+                                                <figure class="highcharts-figure position-relative">
+                                                    <div id="cibilScoreChart"></div>
+                                                    <p class="text-center m-0 scoreScore"> <strong>Great Score!</strong>
+                                                    </p>
+                                                </figure>
+                                                <p class="text-center lastUpdated">Updated On 7-08-2024</p>
+                                            </div>
+                                            <div class="reportWrapper d-flex justify-content-between">
+                                                <div class="d-flex w-50 justify-content-center align-items-center">
+                                                    <img src="../img/cibil-score/download.png"
+                                                        alt="download">
+                                                    Download Report
+                                                </div>
+                                                <div class="d-flex w-50 justify-content-center align-items-center">
+                                                    <img src="../img/cibil-score/insights.png"
+                                                        alt="download">
+                                                    View
+                                                    Report
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="row">
+                                            <div class="col-6 mt-4 mt-lg-0 h-100">
+                                                <div class="plRate loanQuote h-100">
+                                                    <img src="../img/cibil-score/moneyFrame.png"
+                                                        alt="moneyFrame">
+                                                    <p>Get a <strong> Personal Loan </strong> offers Starting at 10.5%
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 mt-4 mt-lg-0 h-100">
+                                                <div class="hlRate loanQuote h-100">
+                                                    <img src="../img/cibil-score/HomeFrame.png"
+                                                        alt="moneyFrame">
+                                                    <p>Get a <strong> Home Loan </strong>offers Starting at 8.5%</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 mt-4">
+                                                <div class="quotesImg">
+                                                    <img src="../img/cibil-score/cc-frame.png"
+                                                        alt="moneyFrame">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="middleSec mt-5 mx-2 mx-sm-0">
+                                <h2>Credit Profile</h2>
+                                <p>Here , the detailed analysis of your credit history</p>
+                                <div class="row mt-sm-5 mt-2">
+                                    <div class="col-lg-5">
+                                        <div class="userfinancialDetails position-relative">
+                                            <div data-clickkey="1"
+                                                class="historyCard activeCardLeft d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between">
+                                                    <img src="../img/cibil-score/card-time.png" alt="icons">
+                                                    <div>
+                                                        <p>Payment History</p>
+                                                        <span>Impact: High</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <h3>100%</h3>
+                                                        <em>Excellent</em>
+                                                    </div>
+                                                    <img class="mx-2 p-2 cursor-pointer" src="../img/cibil-score/arrow-down.png"
+                                                        alt="arrow-down">
+                                                </div>
+                                            </div>
+                                            <div data-showkey="1"
+                                                class="detailedDetails PaymentHistoryDetails activeChart">
+                                                <h2>Payment History</h2>
+                                                <p>Your payment history reflects how reliably you’ve paid your bills
+                                                    over time.</p>
+                                                <div class="text-end d-flex justify-content-end paymentHistoryFilters">
+                                                    <select name="account" id="account">
+                                                        <option value="aaccount">account</option>
+                                                        <option value="b">b</option>
+                                                        <option value="c">c</option>
+                                                    </select>
+                                                    <select name="Months" id="Months">
+                                                        <option value="Months">Months</option>
+                                                        <option value="b">b</option>
+                                                        <option value="c">c</option>
+                                                    </select>
+                                                </div>
+                                                <figure class="highcharts-figure2 myAllChartWrapper">
+                                                    <div id="PaymentHistoryDetailsChart"></div>
+                                                </figure>
+                                                <div class="text-end mb-2">
+                                                    <a target="_blank" href="#">Get Full Details</a>
+                                                </div>
+                                                <div class="bottomSuggestion d-flex align-items-center">
+                                                    <div class="imgWrapper">
+                                                        <img src="../img/cibil-score/moneyInHand.png"
+                                                            alt="icon">
+                                                    </div>
+                                                    <p>Improve Your Credit Score Today with Our <br> Personal Loan
+                                                        with
+                                                        <strong>ICICI Bank @ 10% ROI</strong>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div data-clickkey="2"
+                                                class="historyCard d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between">
+                                                    <img src="../img/cibil-score/card-tick.png" alt="icons">
+                                                    <div>
+                                                        <p>Payment History</p>
+                                                        <span>Impact: Medium</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                <div>
+                                                    <h3>50%</h3>
+                                                    <em>Good</em>
+                                                </div>
+                                                <img class="mx-2 p-2 cursor-pointer" src="../img/cibil-score/arrow-down.png"
+                                                alt="arrow-down">
+                                            </div>
+                                            </div>
+                                            <div data-showkey="2" class="detailedDetails creditCardUtilizationDetials ">
+                                                <h2>Credit Card Utilization</h2>
+                                                <p>You have utilized 40% of your total Credit Limit</p>
+                                                <div class="text-end d-flex justify-content-between ccBasicDetails">
+                                                    <div class="text-start">
+                                                        <span>Total Spend</span>
+                                                        <p>₹20,00,000</p>
+                                                    </div>
+                                                    <div class="text-start">
+                                                        <span>Total credit Limit</span>
+                                                        <p>286 Months</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-sm-flex justify-content-start">
+                                                    <figure class="highcharts-figure3 myAllChartWrapper m-0">
+                                                        <div id="creditCardUtilizationDetialsChart"></div>
+                                                    </figure>
+                                                    <ul class="cardSpending d-sm-block mt-sm-5 cardChartShow">
+                                                        <li class="mb-2"><span></span>Card 1 <strong>40%</strong> </li>
+                                                        <li class="mb-2"><span></span>Card 2 <strong>30%</strong> </li>
+                                                        <li class="mb-2"><span></span>Card 3 <strong>20%</strong> </li>
+                                                        <li class="mb-2"><span></span>Card 3 <strong>10%</strong> </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="text-end mb-2">
+                                                    <a target="_blank" href="#">Get Full Details</a>
+                                                </div>
+                                                <div class="bottomSuggestion d-flex align-items-center">
+                                                    <div class="imgWrapper">
+                                                        <img src="../img/cibil-score/moneyInHand.png"
+                                                            alt="icon">
+                                                    </div>
+                                                    <p>Improve Your Credit Score Today with Our <br> Personal Loan
+                                                        with
+                                                        <strong>ICICI Bank @ 10% ROI</strong>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div data-clickkey="3"
+                                                class="historyCard d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between">
+                                                    <img src="../img/cibil-score/save-2.png" alt="icons">
+                                                    <div>
+                                                        <p>Payment History</p>
+                                                        <span>Impact: Low</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <h3>2</h3>
+                                                        <em>Fair</em>
+                                                    </div>
+                                                    <img class="mx-2 p-2 cursor-pointer" src="../img/cibil-score/arrow-down.png"
+                                                    alt="arrow-down">
+                                                </div>
+                                            </div>
+                                            <div data-showkey="3" class="detailedDetails TotalAccountDetials ">
+                                                <h2>Total Account</h2>
+                                                <p><strong>You have 2 Accounts </strong></p>
+                                                <div class="text-end d-flex justify-content-between ccBasicDetails">
+                                                    <div class="text-start">
+                                                        <span>Active Account</span>
+                                                        <p>5</p>
+                                                    </div>
+                                                    <div class="text-start">
+                                                        <span>Close Account</span>
+                                                        <p>2</p>
+                                                    </div>
+                                                </div>
+                                                <div class="d-sm-flex justify-content-start">
+
+                                                    <figure class="highcharts-figure4 myAllChartWrapper">
+                                                        <div id="TotalAccountDetialsChart"></div>
+                                                    </figure>
+
+                                                    <ul class="cardSpending d-sm-block mt-sm-5 cardChartShow">
+                                                        <li class="mb-2"><span></span>Personal Loan <strong>5</strong>
+                                                        </li>
+                                                        <li class="mb-2"><span></span>Credit Card <strong>2</strong>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+
+                                                <div class="text-end mb-2">
+                                                    <a target="_blank" href="#">Get Full Details</a>
+                                                </div>
+                                                <div class="bottomSuggestion d-flex align-items-center">
+                                                    <div class="imgWrapper">
+                                                        <img src="../img/cibil-score/moneyInHand.png"
+                                                            alt="icon">
+                                                    </div>
+                                                    <p>Improve Your Credit Score Today with Our <br> Personal Loan
+                                                        with
+                                                        <strong>ICICI Bank @ 10% ROI</strong>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div data-clickkey="4"
+                                                class="historyCard d-flex justify-content-between align-items-center">
+                                                <div class="d-flex justify-content-between">
+                                                    <img src="../img/cibil-score/edit.png" alt="icons">
+                                                    <div>
+                                                        <p>Payment History</p>
+                                                        <span>Impact: low</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <div>
+                                                        <h3>0</h3>
+                                                        <em></em>
+                                                    </div>
+                                                    <img class="mx-2 p-2 cursor-pointer" src="../img/cibil-score/arrow-down.png"
+                                                    alt="arrow-down">
+                                                </div>
+                                            </div>
+                                            <div data-showkey="4" class="detailedDetails CreditEnquiriesDetials ">
+                                                <h2>Total Account</h2>
+                                                <p><strong>You have 2 Accounts </strong></p>
+                                                <div class="text-end d-flex justify-content-between ccBasicDetails">
+                                                    <div class="text-start">
+                                                        <span>Active Account</span>
+                                                        <p>5</p>
+                                                    </div>
+                                                    <div class="text-start">
+                                                        <span>Close Account</span>
+                                                        <p>2</p>
+                                                    </div>
+                                                </div>
+                                                <!-- <figure class="highcharts-figure4">
+                                                <div id="CreditEnquiriesDetialsChart"></div>
+                                            </figure> -->
+
+                                                <!-- <ul class="cardSpending justify-content-center">
+                                                <li class="mx-3"><span></span>Personal Loan <strong>4</strong> </li>
+                                                <li><span></span>Credit Card <strong>3</strong> </li>
+                                            </ul> -->
+                                                <div class="my-lg-5 py-lg-5"></div>
+                                                <div class="text-end mb-2">
+                                                    <a target="_blank" href="#">Get Full Details</a>
+                                                </div>
+                                                <div class="bottomSuggestion d-flex align-items-center">
+                                                    <div class="imgWrapper">
+                                                        <img src="../img/cibil-score/moneyInHand.png"
+                                                            alt="icon">
+                                                    </div>
+                                                    <p>Improve Your Credit Score Today with Our <br> Personal Loan
+                                                        with
+                                                        <strong>ICICI Bank @ 10% ROI</strong>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container mt-5">
+                            <div class="faq">
+                                <div class="container">
+                                    <h2 class="heading ">Frequently Asked Questions (FAQs)</h2>
+                                    <p class="mb-4">Below are a few questions for CIBIL Score</p>
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                    What is a CIBIL Score?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    A Cibil Score is a three-digit number that denotes your credit
+                                                    report. The Cibil score starts from 300 to 900 and if you are closer
+                                                    to a Cibil score of 900 then it is considered a good score. On the
+                                                    other hand, if your score is closer to 300 then it is a bad score
+                                                    and there are fewer chances to get any debt. Therefore it is
+                                                    necessary to keep an eye on your Cibil Score by checking it
+                                                    regularly.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item mt-4">
+                                            <h2 class="accordion-header" id="headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Difference Between a Credit Score and a CIBIL Score
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the second item's accordion body.</strong> It is
+                                                    hidden by default, until
+                                                    the collapse plugin adds the appropriate classes that we use to
+                                                    style each element. These
+                                                    classes control the overall appearance, as well as the showing and
+                                                    hiding via CSS
+                                                    transitions. You can modify any of this with custom CSS or
+                                                    overriding our default variables.
+                                                    It's also worth noting that just about any HTML can go within the
+                                                    <code>.accordion-body</code>, though the transition does limit
+                                                    overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item mt-4">
+                                            <h2 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    What is the Full Form of CIBIL?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse "
+                                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the third item's accordion body.</strong> It is
+                                                    hidden by default, until the
+                                                    collapse plugin adds the appropriate classes that we use to style
+                                                    each element. These
+                                                    classes control the overall appearance, as well as the showing and
+                                                    hiding via CSS
+                                                    transitions. You can modify any of this with custom CSS or
+                                                    overriding our default variables.
+                                                    It's also worth noting that just about any HTML can go within the
+                                                    <code>.accordion-body</code>, though the transition does limit
+                                                    overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../js//common/jquery-3.6.0.js"></script>
+    <script src="../js//common/jquery-ui-v1.13.0.js"></script>
+    <script src="../js//common/jquery.validate.min.js"></script>
+    <script src="../js//common/bootstrap-v5.0.2.min.js"></script>
+    <script src="../js//common/form.js"></script>
+    <script src="../js//common/new-layout.js"></script>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <script src="../js//cibil-score/dashboard-common.js"></script>
+    <script src="../js//cibil-score/dashboard.js"></script>
+</body>
+
+</html>
